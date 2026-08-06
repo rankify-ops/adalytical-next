@@ -336,6 +336,7 @@ export default function Home() {
 {/* ============ SERVICES — DARK BAND ============ */}
 <section className="band-wrap rvsec" id="services">
   <div className="band">
+    <div className="band-silk" aria-hidden="true"><Silk color="#1e6f42" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
     <div className="ctr">
       <div className="band-top rv">
         <span className="shead-chip lite"><span className="chip-plus lite">+</span> What we do</span>

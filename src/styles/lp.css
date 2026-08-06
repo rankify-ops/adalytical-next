@@ -366,3 +366,7 @@
 /* ---- React Bits Silk background behind the 4.08x number band ---- */
 .bn-band .bn-silk{position:absolute;inset:0;z-index:0;opacity:.42;pointer-events:none}
 .bn-band .bn-silk canvas{width:100%!important;height:100%!important;display:block}
+
+/* ---- Silk background behind the Services band (matches the 4.08x band) ---- */
+.band .band-silk{position:absolute;inset:0;z-index:0;opacity:.42;pointer-events:none}
+.band .band-silk canvas{width:100%!important;height:100%!important;display:block}
