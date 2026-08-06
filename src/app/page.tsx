@@ -262,7 +262,7 @@ export default function Home() {
           <span className="proj-dots"><i></i><i></i><i></i></span>
         </div>
         <div className="proj-media">
-          <div className="proj-bg bg1"></div>
+          <div className="proj-bg bg1"><img src={`${BASE}/images/case-bys.webp`} alt="" /></div>
           <div className="proj-logo">
             <strong>+65%</strong>
             <span>ROAS increase — precision tracking &amp; smart segmentation</span>
@@ -277,7 +277,7 @@ export default function Home() {
           <span className="proj-dots"><i></i><i></i><i></i></span>
         </div>
         <div className="proj-media">
-          <div className="proj-bg bg2"></div>
+          <div className="proj-bg bg2"><img src={`${BASE}/images/case-watch-factory.webp`} alt="" /></div>
           <div className="proj-logo">
             <strong>+2,966%</strong>
             <span>sales from new customers — a full structural overhaul</span>
@@ -292,7 +292,7 @@ export default function Home() {
           <span className="proj-dots"><i></i><i></i><i></i></span>
         </div>
         <div className="proj-media">
-          <div className="proj-bg bg3"></div>
+          <div className="proj-bg bg3"><img src={`${BASE}/images/case-booze-barrels.webp`} alt="" /></div>
           <div className="proj-logo">
             <strong>$16K → $68K</strong>
             <span>monthly revenue, turning clicks into cases at 4.08 ROAS</span>

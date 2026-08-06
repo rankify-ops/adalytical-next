@@ -402,10 +402,11 @@ img,svg{max-width:100%;display:block}
 .proj-media{position:relative;height:clamp(260px,30vw,420px);margin:0 8px 8px;border-radius:12px;overflow:hidden}
 .proj-bg{position:absolute;inset:0;transition:filter .6s var(--ease),transform .6s var(--ease)}
 .proj-bg::after{content:'';position:absolute;inset:0;opacity:.14;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");background-size:300px 300px}
-.proj-bg.bg1{background:url(/images/case-bys.webp) center/cover no-repeat,#241806}
-.proj-bg.bg2{background:url(/images/case-watch-factory.webp) center/cover no-repeat,#1a1f24}
-.proj-bg.bg3{background:url(/images/case-booze-barrels.webp) center/cover no-repeat,#241806}
-.proj-bg.bg1::before,.proj-bg.bg2::before,.proj-bg.bg3::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,18,12,.28) 0%,rgba(10,18,12,.52) 100%)}
+.proj-bg.bg1{background:#241806}
+.proj-bg.bg2{background:#1a1f24}
+.proj-bg.bg3{background:#241806}
+.proj-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.proj-bg.bg1::before,.proj-bg.bg2::before,.proj-bg.bg3::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(10,18,12,.28) 0%,rgba(10,18,12,.52) 100%)}
 .proj-bg.bg4{background:linear-gradient(140deg,#1f4632 0%,var(--forest-2) 60%,#0b1c12 100%)}
 .proj-bg.bg4::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 55% at 70% 25%,rgba(92,194,150,.3),transparent 65%)}
 .proj:hover .proj-bg{filter:blur(16px) saturate(1.15);transform:scale(1.08)}
