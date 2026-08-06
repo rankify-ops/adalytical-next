@@ -1,0 +1,6 @@
+:HL["/adalytical/_next/static/chunks/2cf76lo025lwa.css","style"]
+:HL["/adalytical/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap","style"]
+:HL["/adalytical/images/adalytical-logo-white.svg","image"]
+:HL["/adalytical/images/adalytical-logo-dark.svg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"about","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"wbp9WB4ng1QtyXTBKbxoZ"}
