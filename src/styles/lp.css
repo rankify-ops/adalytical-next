@@ -190,7 +190,7 @@
    ============================================================ */
 .csp-eyebrow .chip-plus{margin-right:2px}
 /* alternating service rows */
-.svc{padding:clamp(40px,6vw,78px) 0}
+.svc{padding:clamp(58px,7vw,104px) 0}
 .svc-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,5vw,72px);align-items:center;max-width:1100px;margin:0 auto}
 .svc-grid.rev .svc-copy{order:2}
 .svc-num{font-family:ui-monospace,Menlo,monospace;font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--brand);font-weight:700}
@@ -362,3 +362,7 @@
   -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;
   mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;
   opacity:var(--glow,0);transition:opacity .4s var(--ease)}
+
+/* ---- React Bits Silk background behind the 4.08x number band ---- */
+.bn-band .bn-silk{position:absolute;inset:0;z-index:0;opacity:.42;pointer-events:none}
+.bn-band .bn-silk canvas{width:100%!important;height:100%!important;display:block}

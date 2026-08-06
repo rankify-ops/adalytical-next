@@ -1,5 +1,6 @@
 // AUTO-GENERATED from ../adalytical/index.html — do not hand-edit; regenerate via scripts/gen_page.py
 import Script from "next/script";
+import Silk from "@/components/Silk";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
@@ -229,6 +230,7 @@ export default function Home() {
 {/* ============ BIG-NUMBER MOMENT ============ */}
 <section className="bn-wrap rvsec">
   <div className="bn-band rv">
+    <div className="bn-silk" aria-hidden="true"><Silk color="#1e6f42" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
     <div className="bn-eyebrow">The number that matters</div>
     <div className="bn-huge">4.08&times;</div>
     <p className="bn-sub"><strong>Average ROAS across every account we manage.</strong> Not clicks. Not impressions. The one number that decides whether your Google Ads actually make money.</p>
