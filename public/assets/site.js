@@ -507,33 +507,30 @@ function __onload(fn){if(document.readyState==='complete'){setTimeout(fn,0);}els
   window.AdalyticalOpenForm = open;
 })();
 
-/* ---- Spotlight + border-glow card grids (vanilla "Magic Bento") ---- */
+/* ---- Cursor spotlight + border-glow on cards (desktop, all pages) ---- */
 (function () {
-  var grids = document.querySelectorAll('.glow-grid');
-  if (!grids.length || !window.matchMedia || matchMedia('(pointer:fine)').matches === false) return;
-  grids.forEach(function (grid) {
-    var cards = Array.prototype.slice.call(grid.querySelectorAll('.why-card'));
-    if (!cards.length) return;
-    var mx = 0, my = 0, raf = null;
-    function paint() {
-      raf = null;
-      for (var i = 0; i < cards.length; i++) {
-        var card = cards[i], r = card.getBoundingClientRect();
-        card.style.setProperty('--gx', (mx - r.left) + 'px');
-        card.style.setProperty('--gy', (my - r.top) + 'px');
-        var dx = mx - (r.left + r.width / 2), dy = my - (r.top + r.height / 2);
-        var dist = Math.sqrt(dx * dx + dy * dy);
-        var reach = Math.max(r.width, r.height) * 0.9 + 240;
-        var g = 1 - dist / reach;
-        card.style.setProperty('--glow', (g > 0 ? g : 0).toFixed(3));
-      }
-    }
-    grid.addEventListener('pointermove', function (e) {
-      mx = e.clientX; my = e.clientY;
-      if (!raf) raf = requestAnimationFrame(paint);
+  if (!window.matchMedia || !matchMedia('(pointer:fine)').matches) return;
+  var SEL = '.why-card,.grt-card,.cf-ic,.cf-fc,.cf-pc,.team-card,.vs-item,.cmp-card,.cf-case,.tst,.pcard';
+  Array.prototype.slice.call(document.querySelectorAll(SEL)).forEach(function (card) {
+    if (card.classList.contains('glow-card')) return;
+    card.classList.add('glow-card');
+    var fx = document.createElement('span');
+    fx.className = 'glow-fx';
+    fx.setAttribute('aria-hidden', 'true');
+    card.insertBefore(fx, card.firstChild);
+    var raf = null, mx = 0, my = 0;
+    card.addEventListener('pointermove', function (e) {
+      var r = card.getBoundingClientRect();
+      mx = e.clientX - r.left; my = e.clientY - r.top;
+      if (!raf) raf = requestAnimationFrame(function () {
+        raf = null;
+        card.style.setProperty('--gx', mx + 'px');
+        card.style.setProperty('--gy', my + 'px');
+        card.style.setProperty('--glow', '1');
+      });
     });
-    grid.addEventListener('pointerleave', function () {
-      for (var i = 0; i < cards.length; i++) cards[i].style.setProperty('--glow', '0');
+    card.addEventListener('pointerleave', function () {
+      card.style.setProperty('--glow', '0');
     });
   });
 })();
