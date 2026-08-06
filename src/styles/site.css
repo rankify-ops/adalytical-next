@@ -581,3 +581,6 @@ img,svg{max-width:100%;display:block}
 .mform-succ h3{font-size:1.45rem;color:var(--forest);margin-bottom:10px}
 .mform-succ p{font-size:.95rem;color:var(--g600);line-height:1.6;max-width:360px;margin:0 auto 22px}
 @media(max-width:480px){.mform{border-radius:20px}.mform-actions{gap:6px}.mform-submit{padding:14px 20px}}
+
+/* Anchor jumps land below the fixed 64px nav (top of the section, not skipping it) */
+section[id],footer[id]{scroll-margin-top:88px}
