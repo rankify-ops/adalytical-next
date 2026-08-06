@@ -297,7 +297,7 @@ export default function Home() {
 </section>
 
 {/* ============ DONE-FOR-YOU COMPARISON ============ */}
-<section className="sec sec-cream framed rvsec" id="approach">
+<section className="sec sec-cream sec-w framed rvsec" id="approach">
   <span className="xmark xm-sl" aria-hidden="true"></span>
   <span className="xmark xm-sr" aria-hidden="true"></span>
   <div className="ctr">
