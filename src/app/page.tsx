@@ -230,7 +230,7 @@ export default function Home() {
 {/* ============ BIG-NUMBER MOMENT ============ */}
 <section className="bn-wrap rvsec">
   <div className="bn-band rv">
-    <div className="bn-silk" aria-hidden="true"><Silk color="#1e6f42" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
+    <div className="bn-silk" aria-hidden="true"><Silk color="#0f2e1e" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
     <div className="bn-eyebrow">The number that matters</div>
     <div className="bn-huge">4.08&times;</div>
     <p className="bn-sub"><strong>Average ROAS across every account we manage.</strong> Not clicks. Not impressions. The one number that decides whether your Google Ads actually make money.</p>
@@ -336,7 +336,7 @@ export default function Home() {
 {/* ============ SERVICES — DARK BAND ============ */}
 <section className="band-wrap rvsec" id="services">
   <div className="band">
-    <div className="band-silk" aria-hidden="true"><Silk color="#1e6f42" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
+    <div className="band-silk" aria-hidden="true"><Silk color="#0f2e1e" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
     <div className="ctr">
       <div className="band-top rv">
         <span className="shead-chip lite"><span className="chip-plus lite">+</span> What we do</span>
