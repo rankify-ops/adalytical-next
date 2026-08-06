@@ -645,7 +645,6 @@ export default function Home() {
         <h2 className="shead-t rv">No lock-in. No guesswork. <span className="dim">Just results.</span></h2>
       </div>
     </div>
-    <div className="grt-emblem rv"><img src={`${BASE}/images/gfx-shield.png`} alt="Your ad spend and growth, protected" width="1536" height="1024" /></div>
     <div className="grt-grid rv">
       <div className="grt-card">
         <span className="grt-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 17l6-6 4 4 8-8" strokeLinecap="round" strokeLinejoin="round"/><path d="M17 7h4v4" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
