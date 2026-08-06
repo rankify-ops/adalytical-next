@@ -666,7 +666,7 @@ export default function Home() {
 </section>
 
 {/* ============ WHY ADALYTICAL — DIFFERENTIATORS ============ */}
-<section className="sec sec-cream framed rvsec" id="why">
+<section className="sec sec-cream sec-w framed rvsec" id="why">
   <span className="xmark xm-sl" aria-hidden="true"></span>
   <span className="xmark xm-sr" aria-hidden="true"></span>
   <div className="ctr">
@@ -719,7 +719,7 @@ export default function Home() {
 </section>
 
 {/* ============ WHO WE HELP — INDUSTRIES ============ */}
-<section className="sec sec-cream sec-w framed rvsec" id="industries">
+<section className="sec sec-cream framed rvsec" id="industries">
   <span className="xmark xm-sl" aria-hidden="true"></span>
   <span className="xmark xm-sr" aria-hidden="true"></span>
   <div className="ctr">
