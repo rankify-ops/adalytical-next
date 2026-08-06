@@ -190,43 +190,6 @@ export default function Home() {
 </div>
 </div>
 
-{/* ============ DONE-FOR-YOU COMPARISON ============ */}
-<section className="sec sec-cream framed rvsec" id="approach">
-  <span className="xmark xm-sl" aria-hidden="true"></span>
-  <span className="xmark xm-sr" aria-hidden="true"></span>
-  <div className="ctr">
-    <div className="shead">
-      <span className="shead-chip rv"><span className="chip-plus">+</span> The difference</span>
-      <div className="shead-main">
-        <span className="shead-brand rv">Adalytical®</span>
-        <h2 className="shead-t rv">Most agencies hand you a dashboard. <span className="dim">We do the actual work.</span></h2>
-      </div>
-    </div>
-    <div className="cf-cmp rv">
-      <div className="cf-cmp-col them">
-        <div className="cf-cmp-h">Typical Google Ads agency</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>A junior account manager learning on your budget</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Set-and-forget campaigns, glanced at monthly</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Vanity reports full of clicks and impressions</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Locked into 6–12 month contracts</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>You chase them for updates</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Generic, templated strategy</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>One channel, siloed thinking</div>
-      </div>
-      <div className="cf-cmp-col us">
-        <div className="cf-cmp-h">Adalytical</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>An ex-Google senior strategist on your account</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Daily optimisation, testing and monitoring</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Profit-first reporting — ROAS, CAC, real revenue</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Month-to-month, cancel anytime</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Proactive updates and a direct line to the team</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Custom strategy shaped by 1,000+ audits</div>
-        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel: Search, Shopping, PMax &amp; landing pages</div>
-      </div>
-    </div>
-  </div>
-</section>
-
 {/* ============ BIG-NUMBER MOMENT ============ */}
 <section className="bn-wrap rvsec">
   <div className="bn-band rv">
@@ -330,6 +293,43 @@ export default function Home() {
     <a href="#book" className="btn-p">Book a free audit
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg>
     </a>
+  </div>
+</section>
+
+{/* ============ DONE-FOR-YOU COMPARISON ============ */}
+<section className="sec sec-cream framed rvsec" id="approach">
+  <span className="xmark xm-sl" aria-hidden="true"></span>
+  <span className="xmark xm-sr" aria-hidden="true"></span>
+  <div className="ctr">
+    <div className="shead">
+      <span className="shead-chip rv"><span className="chip-plus">+</span> The difference</span>
+      <div className="shead-main">
+        <span className="shead-brand rv">Adalytical®</span>
+        <h2 className="shead-t rv">Most agencies hand you a dashboard. <span className="dim">We do the actual work.</span></h2>
+      </div>
+    </div>
+    <div className="cf-cmp rv">
+      <div className="cf-cmp-col them">
+        <div className="cf-cmp-h">Typical Google Ads agency</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>A junior account manager learning on your budget</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Set-and-forget campaigns, glanced at monthly</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Vanity reports full of clicks and impressions</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Locked into 6–12 month contracts</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>You chase them for updates</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>Generic, templated strategy</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6 6 18M6 6l12 12" strokeLinecap="round"/></svg>One channel, siloed thinking</div>
+      </div>
+      <div className="cf-cmp-col us">
+        <div className="cf-cmp-h">Adalytical</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>An ex-Google senior strategist on your account</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Daily optimisation, testing and monitoring</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Profit-first reporting — ROAS, CAC, real revenue</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Month-to-month, cancel anytime</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Proactive updates and a direct line to the team</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Custom strategy shaped by 1,000+ audits</div>
+        <div className="cf-cmp-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel: Search, Shopping, PMax &amp; landing pages</div>
+      </div>
+    </div>
   </div>
 </section>
 
