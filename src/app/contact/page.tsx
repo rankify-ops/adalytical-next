@@ -85,7 +85,7 @@ export default function Contact() {
   </ul>
   <div className="mdrawer-cta">
     <a href={`${BASE}/#book`} className="mc-quote">Book A Strategy Call</a>
-    <a href={`${BASE}/#book`} className="mc-audit">Get a Free Audit</a>
+    <a href={`${BASE}/#audit`} className="mc-audit">Get a Free Audit</a>
   </div>
 </div>
 
@@ -94,7 +94,7 @@ export default function Contact() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Contact</span>
     <h1 className="rv">Let&rsquo;s talk <span className="accent">Google Ads.</span></h1>
     <p className="rv">Book a free strategy call or send us your goals — we’ll show you exactly where your account can grow. No pitch, no pressure.</p>
-    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
   </div>
 </div>
 <section className="sec sec-cream sec-w framed rvsec">
@@ -114,7 +114,7 @@ export default function Contact() {
         <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" strokeLinecap="round"/></svg></span>
         <h3>Get a free audit</h3>
         <p>We’ll dig into your account and send back the biggest wins and wasted-spend leaks — yours to keep, whether we work together or not.</p>
-        <a href={`${BASE}/#book`} className="contact-link">Request an audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="contact-link">Request an audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="contact-card">
         <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
@@ -131,7 +131,7 @@ export default function Contact() {
     <span className="sec-tag">Get started</span>
     <h2>Ready when you are.</h2>
     <p>Book a free strategy call and we’ll map out exactly where your Google Ads can grow — no pitch, no pressure.</p>
-    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
   </div></div>
 </section>
 

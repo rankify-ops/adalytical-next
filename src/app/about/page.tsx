@@ -85,7 +85,7 @@ export default function About() {
   </ul>
   <div className="mdrawer-cta">
     <a href={`${BASE}/#book`} className="mc-quote">Book A Strategy Call</a>
-    <a href={`${BASE}/#book`} className="mc-audit">Get a Free Audit</a>
+    <a href={`${BASE}/#audit`} className="mc-audit">Get a Free Audit</a>
   </div>
 </div>
 
@@ -95,7 +95,7 @@ export default function About() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> About Adalytical</span>
     <h1 className="rv">One of the <span className="accent">fastest-growing</span> Google Ads agencies in the world.</h1>
     <p className="rv">We spent years on the inside at Google. Now we use that edge to do one thing better than anyone else — turn Google Ads into profit for the brands we work with.</p>
-    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
   </div>
 </div>
 
@@ -216,7 +216,7 @@ export default function About() {
       <span className="sec-tag">Get started</span>
       <h2>Want the ex-Google edge on your account?</h2>
       <p>Book a free audit and we’ll show you exactly where your Google Ads are leaking money — and what we’d do about it. No pitch, no pressure.</p>
-      <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+      <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
       <div className="cta-micro" style={{'justifyContent':'center'}}>
         <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span>
         <span className="cm-sep"></span>

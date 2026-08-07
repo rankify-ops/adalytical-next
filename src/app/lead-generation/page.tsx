@@ -85,7 +85,7 @@ export default function LeadGeneration() {
   </ul>
   <div className="mdrawer-cta">
     <a href={`${BASE}/#book`} className="mc-quote">Book A Strategy Call</a>
-    <a href={`${BASE}/#book`} className="mc-audit">Get a Free Audit</a>
+    <a href={`${BASE}/#audit`} className="mc-audit">Get a Free Audit</a>
   </div>
 </div>
 
@@ -96,7 +96,7 @@ export default function LeadGeneration() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Google Ads for Lead Generation</span>
     <h1 className="rv">More qualified leads, <span className="accent">lower cost per lead.</span></h1>
     <p className="rv">High-intent Search campaigns with proper call and form tracking, so every lead is measured and every dollar is accountable. No guesswork, no vanity metrics.</p>
-    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     </div>
     <div className="csp-hero-fig rv"><img src={`${BASE}/images/gfx-leadfunnel.png`} alt="Filtering unqualified leads into a funnel that outputs qualified enquiries" width="1536" height="1024" /></div>
   </div>
@@ -115,7 +115,7 @@ export default function LeadGeneration() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Smart bidding tuned to lead quality, not just volume</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel conversion tracking from day one</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-manage.png`} alt="Google Ads management and optimisation for lead generation" loading="lazy" width="1536" height="1024" /></div></div>
     </div>
@@ -134,7 +134,7 @@ export default function LeadGeneration() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Offline conversion import for closed-won leads</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Clean reporting on cost per <em>qualified</em> lead</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free tracking audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free tracking audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-forms.png`} alt="Call and form tracking capturing every enquiry" loading="lazy" width="1536" height="1024" /></div></div>
     </div>
@@ -240,7 +240,7 @@ export default function LeadGeneration() {
     <span className="sec-tag">Get started</span>
     <h2>Turn more of your budget into qualified leads.</h2>
     <p>Book a free audit and we will show you exactly where your lead-gen spend is being wasted and how to fix it.</p>
-    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     <div className="cta-micro" style={{'justifyContent':'center'}}><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span><span className="cm-sep"></span><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts</span><span className="cm-sep"></span><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span></div>
   </div></div>
 </section>

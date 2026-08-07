@@ -85,7 +85,7 @@ export default function LandingPages() {
   </ul>
   <div className="mdrawer-cta">
     <a href={`${BASE}/#book`} className="mc-quote">Book A Strategy Call</a>
-    <a href={`${BASE}/#book`} className="mc-audit">Get a Free Audit</a>
+    <a href={`${BASE}/#audit`} className="mc-audit">Get a Free Audit</a>
   </div>
 </div>
 
@@ -97,7 +97,7 @@ export default function LandingPages() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Conversion Optimisation</span>
     <h1 className="rv">Landing pages that turn <span className="accent">clicks into customers.</span></h1>
     <p className="rv">The best campaign in the world dies on a slow, generic page. We build fast, conversion-led landing pages mapped to every campaign — then A/B test them until they climb.</p>
-    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     </div>
     <div className="csp-hero-fig rv"><img src={`${BASE}/images/gfx-abtest.png`} alt="Landing page A/B test with the winning variant lifting conversions" width="1536" height="1024" /></div>
   </div>
@@ -246,7 +246,7 @@ export default function LandingPages() {
     <span className="sec-tag">Get started</span>
     <h2>Get a free teardown of your current page.</h2>
     <p>We’ll show you exactly where your landing page is losing conversions — and what we’d change to fix it. No pitch, no pressure.</p>
-    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     <div className="cta-micro" style={{'justifyContent':'center'}}><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span><span className="cm-sep"></span><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts</span><span className="cm-sep"></span><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span></div>
   </div></div>
 </section>

@@ -85,7 +85,7 @@ export default function Services() {
   </ul>
   <div className="mdrawer-cta">
     <a href={`${BASE}/#book`} className="mc-quote">Book A Strategy Call</a>
-    <a href={`${BASE}/#book`} className="mc-audit">Get a Free Audit</a>
+    <a href={`${BASE}/#audit`} className="mc-audit">Get a Free Audit</a>
   </div>
 </div>
 
@@ -95,7 +95,7 @@ export default function Services() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> What we do</span>
     <h1 className="rv">Everything your Google Ads needs, <span className="accent">done for you.</span></h1>
     <p className="rv">Four services, one obsession: turning your ad spend into profit. Built and run by a team that spent years inside Google — so nothing gets left on the table.</p>
-    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
   </div>
 </div>
 
@@ -113,7 +113,7 @@ export default function Services() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Daily split-testing on copy, bids and audiences</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel conversion tracking from day one</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv">
         <div className="svc-fig"><img src={`${BASE}/images/gfx-manage.png`} alt="Google Ads campaign management and optimisation controls" loading="lazy" width="1536" height="1024" /></div>
@@ -136,7 +136,7 @@ export default function Services() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Policy compliance &amp; suspension recovery</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Feed A/B tests to lift click-through</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free feed audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free feed audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv">
         <div className="svc-fig"><img src={`${BASE}/images/gfx-merchant-feed.png`} alt="Merchant Center product feed with all products approved" loading="lazy" width="1536" height="1024" /></div>
@@ -159,7 +159,7 @@ export default function Services() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>A/B tested headlines, offers and layouts</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Wired to your tracking for true attribution</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free page teardown <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free page teardown <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv">
         <div className="svc-fig"><img src={`${BASE}/images/gfx-abtest.png`} alt="Landing page A/B test with the winning variant lifting conversions" loading="lazy" width="1536" height="1024" /></div>
@@ -198,7 +198,7 @@ export default function Services() {
       <span className="sec-tag">Get started</span>
       <h2>Not sure which you need? We’ll tell you straight.</h2>
       <p>Book a free audit and we’ll map out exactly where your account is leaking money — and which of these will move the needle fastest. No pitch, no pressure.</p>
-      <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+      <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
       <div className="cta-micro" style={{'justifyContent':'center'}}>
         <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span>
         <span className="cm-sep"></span>

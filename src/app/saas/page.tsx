@@ -85,7 +85,7 @@ export default function Saas() {
   </ul>
   <div className="mdrawer-cta">
     <a href={`${BASE}/#book`} className="mc-quote">Book A Strategy Call</a>
-    <a href={`${BASE}/#book`} className="mc-audit">Get a Free Audit</a>
+    <a href={`${BASE}/#audit`} className="mc-audit">Get a Free Audit</a>
   </div>
 </div>
 
@@ -96,7 +96,7 @@ export default function Saas() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Google Ads for SaaS</span>
     <h1 className="rv">Pipeline, <span className="accent">not just clicks.</span></h1>
     <p className="rv">Demo and trial funnels tuned to real pipeline &mdash; high-intent Search, landing pages and offers built to convert cold traffic into signups and sales-qualified leads.</p>
-    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     </div>
     <div className="csp-hero-fig rv"><img src={`${BASE}/images/gfx-results.png`} alt="Google Ads results dashboard showing 6.8x ROAS" width="1536" height="1024" /></div>
   </div>
@@ -115,7 +115,7 @@ export default function Saas() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Bidding tuned to trials, demos and pipeline</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel conversion tracking from day one</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-manage.png`} alt="Google Ads management and optimisation for SaaS" loading="lazy" width="1536" height="1024" /></div></div>
     </div>
@@ -134,7 +134,7 @@ export default function Saas() {
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Offline conversion import for closed revenue</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Experimentation on offers and funnel steps</li>
         </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free funnel audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <a href={`${BASE}/#audit`} className="svc-link">Get a free funnel audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
       <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-leadfunnel.png`} alt="Demo and trial funnel filtering signups into qualified pipeline" loading="lazy" width="1536" height="1024" /></div></div>
     </div>
@@ -238,7 +238,7 @@ export default function Saas() {
     <span className="sec-tag">Get started</span>
     <h2>Point your ad spend at pipeline, not vanity clicks.</h2>
     <p>Book a free audit and we will show you exactly where your SaaS campaigns can drive more qualified pipeline.</p>
-    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     <div className="cta-micro" style={{'justifyContent':'center'}}><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span><span className="cm-sep"></span><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts</span><span className="cm-sep"></span><span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span></div>
   </div></div>
 </section>
