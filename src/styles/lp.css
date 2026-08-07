@@ -369,3 +369,42 @@
 /* ---- Silk background behind the Services band (matches the 4.08x band) ---- */
 .band .band-silk{position:absolute;inset:0;z-index:0;opacity:.34;pointer-events:none}
 .band .band-silk canvas{width:100%!important;height:100%!important;display:block}
+
+/* ---- BLOG listing ---- */
+.post-filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:clamp(20px,3vw,32px) 0 0}
+.post-filter{font-size:.85rem;font-weight:600;color:var(--g600);background:#fff;border:1px solid rgba(30,55,40,.1);padding:8px 18px;border-radius:50px;cursor:pointer;transition:all .2s var(--ease)}
+.post-filter.active,.post-filter:hover{background:var(--forest);color:#fff;border-color:var(--forest)}
+.post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2vw,26px);margin-top:clamp(30px,4vw,46px)}
+.post-card{background:#fff;border:1px solid rgba(30,55,40,.08);border-radius:18px;overflow:hidden;box-shadow:var(--shadow-s);display:flex;flex-direction:column;transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.post-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-l)}
+.post-thumb{aspect-ratio:16/10;background:linear-gradient(150deg,var(--brand-light),#dfeee6);display:flex;align-items:center;justify-content:center}
+.post-thumb svg{width:52px;height:52px;color:var(--brand);opacity:.55}
+.post-body{padding:22px 22px 18px;display:flex;flex-direction:column;flex:1}
+.post-cat{align-self:flex-start;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);background:var(--brand-light);padding:4px 11px;border-radius:50px;margin-bottom:13px}
+.post-card h3{font-size:1.06rem;color:var(--forest);line-height:1.32;letter-spacing:-.01em;margin-bottom:10px}
+.post-card>.post-body>p{font-size:.88rem;color:var(--g600);line-height:1.6;margin-bottom:16px;flex:1}
+.post-meta{display:flex;align-items:center;gap:10px;padding-top:14px;border-top:1px solid rgba(30,55,40,.07)}
+.post-av{width:34px;height:34px;border-radius:50%;background:linear-gradient(140deg,var(--brand),var(--forest));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem;flex-shrink:0}
+.post-mt strong{display:block;font-size:.8rem;color:var(--forest);line-height:1.2}
+.post-mt span{font-size:.72rem;color:var(--g500)}
+.post-read{margin-left:auto;font-size:.78rem;font-weight:700;color:var(--brand);white-space:nowrap}
+/* ---- TOOLS ---- */
+.tool-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(20px,2.5vw,30px);margin-top:clamp(30px,4vw,46px)}
+.tool-card{background:#fff;border:1px solid rgba(30,55,40,.08);border-radius:20px;overflow:hidden;box-shadow:var(--shadow-s);display:flex;flex-direction:column}
+.tool-thumb{aspect-ratio:16/9;background:linear-gradient(150deg,var(--brand-light),#dfeee6);display:flex;align-items:center;justify-content:center}
+.tool-thumb svg{width:66px;height:66px;color:var(--brand);opacity:.5}
+.tool-body{padding:clamp(24px,3vw,34px);display:flex;flex-direction:column;flex:1}
+.tool-tag{align-self:flex-start;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--brand);margin-bottom:12px}
+.tool-body h3{font-size:1.3rem;color:var(--forest);margin-bottom:12px;letter-spacing:-.02em}
+.tool-body p{font-size:.95rem;color:var(--g600);line-height:1.65;margin-bottom:24px;flex:1}
+.tool-soon{align-self:flex-start;font-size:.82rem;font-weight:600;color:var(--g500);background:var(--g100,#f0f1ee);padding:11px 22px;border-radius:50px;border:1px solid rgba(30,55,40,.08)}
+/* ---- CONTACT ---- */
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,24px);margin-top:clamp(30px,4vw,46px)}
+.contact-card{background:#fff;border:1px solid rgba(30,55,40,.08);border-radius:18px;padding:clamp(26px,3vw,36px);box-shadow:var(--shadow-s);text-align:center}
+.contact-ic{width:54px;height:54px;border-radius:14px;margin:0 auto 18px;background:var(--brand-light);display:flex;align-items:center;justify-content:center}
+.contact-ic svg{width:26px;height:26px;color:var(--brand)}
+.contact-card h3{font-size:1.14rem;color:var(--forest);margin-bottom:9px;letter-spacing:-.02em}
+.contact-card p{font-size:.92rem;color:var(--g600);line-height:1.6;margin-bottom:16px}
+.contact-card a.contact-link{font-size:.92rem;font-weight:700;color:var(--brand);display:inline-flex;align-items:center;gap:6px}
+@media(max-width:820px){.post-grid,.tool-grid,.contact-grid{grid-template-columns:1fr}}
+@media(min-width:821px) and (max-width:1040px){.post-grid,.contact-grid{grid-template-columns:1fr 1fr}}

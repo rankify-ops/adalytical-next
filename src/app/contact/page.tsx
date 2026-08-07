@@ -1,9 +1,9 @@
-// AUTO-GENERATED from ../adalytical/services.html — do not hand-edit; regenerate via scripts/gen_page.py
+// AUTO-GENERATED from ../adalytical/about.html — do not hand-edit; regenerate via scripts/gen_page.py
 import Script from "next/script";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
-export default function Services() {
+export default function Contact() {
   return (
     <>
 
@@ -89,125 +89,50 @@ export default function Services() {
   </div>
 </div>
 
-{/* ============ HERO ============ */}
 <div className="csp">
   <div className="csp-hero rvsec">
-    <span className="csp-eyebrow rv"><span className="chip-plus">+</span> What we do</span>
-    <h1 className="rv">Everything your Google Ads needs, <span className="accent">done for you.</span></h1>
-    <p className="rv">Four services, one obsession: turning your ad spend into profit. Built and run by a team that spent years inside Google — so nothing gets left on the table.</p>
+    <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Contact</span>
+    <h1 className="rv">Let&rsquo;s talk <span className="accent">Google Ads.</span></h1>
+    <p className="rv">Book a free strategy call or send us your goals — we’ll show you exactly where your account can grow. No pitch, no pressure.</p>
     <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
   </div>
 </div>
-
-{/* ============ SERVICE 01 — GOOGLE ADS ============ */}
-<section className="sec sec-cream rvsec svc" id="google-ads">
+<section className="sec sec-cream sec-w framed rvsec">
   <div className="ctr">
-    <div className="svc-grid">
-      <div className="svc-copy rv">
-        <span className="svc-num">Service 01</span>
-        <h2>Google Ads Management</h2>
-        <p>We don’t just run ads — we build high-performance systems tuned to your bottom line. Search, Shopping, Performance Max and YouTube, structured around profit and tested relentlessly.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full account restructure around high-intent search</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Shopping &amp; Performance Max built for ROAS</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Daily split-testing on copy, bids and audiences</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel conversion tracking from day one</li>
-        </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+    <div className="shead">
+      <span className="shead-chip rv"><span className="chip-plus">+</span> Get in touch</span>
+      <div className="shead-main"><span className="shead-brand rv">Adalytical®</span><h2 className="shead-t rv">The fastest way <span className="dim">to get answers.</span></h2></div>
+    </div>
+    <div className="contact-grid rv">
+      <div className="contact-card">
+        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4" strokeLinecap="round"/></svg></span>
+        <h3>Book a strategy call</h3>
+        <p>A free, no-obligation 30-minute call. We audit your account live and map out exactly where the growth is.</p>
+        <a href={`${BASE}/#book`} className="contact-link">Book a call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
-      <div className="svc-viz rv">
-        <div className="svc-fig"><img src={`${BASE}/images/gfx-manage.png`} alt="Google Ads campaign management and optimisation controls" loading="lazy" width="1536" height="1024" /></div>
+      <div className="contact-card">
+        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" strokeLinecap="round"/></svg></span>
+        <h3>Get a free audit</h3>
+        <p>We’ll dig into your account and send back the biggest wins and wasted-spend leaks — yours to keep, whether we work together or not.</p>
+        <a href={`${BASE}/#book`} className="contact-link">Request an audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+      </div>
+      <div className="contact-card">
+        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+        <h3>Fast response</h3>
+        <p>Every enquiry gets a reply within 24 hours — usually much faster during business hours (AEST). You’ll speak to a senior strategist, never a junior.</p>
+        <a href={`${BASE}/#book`} className="contact-link">Start now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
       </div>
     </div>
   </div>
 </section>
-
-{/* ============ SERVICE 02 — MERCHANT CENTER ============ */}
-<section className="sec sec-cream rvsec svc" id="merchant-center">
-  <div className="ctr">
-    <div className="svc-grid rev">
-      <div className="svc-copy rv">
-        <span className="svc-num">Service 02</span>
-        <h2>Merchant Center Optimisation</h2>
-        <p>Your product feed is the engine behind Shopping and Performance Max. We keep it clean, compliant and converting — every single day — so disapprovals never quietly cost you sales.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Daily feed monitoring &amp; disapproval fixes</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Title, image &amp; attribute optimisation</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Policy compliance &amp; suspension recovery</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Feed A/B tests to lift click-through</li>
-        </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free feed audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-      <div className="svc-viz rv">
-        <div className="svc-fig"><img src={`${BASE}/images/gfx-merchant-feed.png`} alt="Merchant Center product feed with all products approved" loading="lazy" width="1536" height="1024" /></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* ============ SERVICE 03 — LANDING PAGES ============ */}
-<section className="sec sec-cream rvsec svc" id="landing-pages">
-  <div className="ctr">
-    <div className="svc-grid">
-      <div className="svc-copy rv">
-        <span className="svc-num">Service 03</span>
-        <h2>Conversion Optimisation</h2>
-        <p>The best campaign in the world dies on a slow, generic page. We build fast, CRO-first landing pages designed to turn cold traffic into customers — then A/B test them until they climb.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Conversion-led design mapped to each campaign</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Mobile-first and built to load fast</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>A/B tested headlines, offers and layouts</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Wired to your tracking for true attribution</li>
-        </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Get a free page teardown <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-      <div className="svc-viz rv">
-        <div className="svc-fig"><img src={`${BASE}/images/gfx-abtest.png`} alt="Landing page A/B test with the winning variant lifting conversions" loading="lazy" width="1536" height="1024" /></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* ============ SERVICE 04 — WEB DEVELOPMENT ============ */}
-<section className="sec sec-cream rvsec svc" id="web-development">
-  <div className="ctr">
-    <div className="svc-grid rev">
-      <div className="svc-copy rv">
-        <span className="svc-num">Service 04</span>
-        <h2>Web Development</h2>
-        <p>Need more than a landing page? We build fast, conversion-led websites and custom builds — the same engineering standard behind pages that convert cold Google Ads traffic into buyers.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Custom, conversion-led site builds</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Blazing-fast, SEO-friendly foundations</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Clean analytics &amp; conversion tracking baked in</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Built to scale as your spend grows</li>
-        </ul>
-        <a href={`${BASE}/#book`} className="svc-link">Talk to us about a build <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-      <div className="svc-viz rv">
-        <div className="svc-fig"><img src={`${BASE}/images/gfx-webdev.png`} alt="Custom web development and conversion-led site build" loading="lazy" width="1536" height="1024" /></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{/* ============ FINAL CTA ============ */}
-<section className="sec sec-cream cta rvsec" id="book">
-  <div className="ctr">
-    <div className="cta-card rv">
-      <span className="sec-tag">Get started</span>
-      <h2>Not sure which you need? We’ll tell you straight.</h2>
-      <p>Book a free audit and we’ll map out exactly where your account is leaking money — and which of these will move the needle fastest. No pitch, no pressure.</p>
-      <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
-      <div className="cta-micro" style={{'justifyContent':'center'}}>
-        <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span>
-        <span className="cm-sep"></span>
-        <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts</span>
-        <span className="cm-sep"></span>
-        <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span>
-      </div>
-    </div>
-  </div>
+{/* ============ CTA ============ */}
+<section className="sec sec-cream cta framed rvsec" id="book">
+  <div className="ctr"><div className="cta-card rv">
+    <span className="sec-tag">Get started</span>
+    <h2>Ready when you are.</h2>
+    <p>Book a free strategy call and we’ll map out exactly where your Google Ads can grow — no pitch, no pressure.</p>
+    <div className="cta-btns"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#book`} className="btn-s">Get a Free Audit</a></div>
+  </div></div>
 </section>
 
 {/* ============ FOOTER ============ */}
