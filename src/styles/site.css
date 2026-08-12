@@ -684,7 +684,11 @@ section[id],footer[id]{scroll-margin-top:88px}
    buttons stayed pill-width while the hero's went edge to edge. One
    breakpoint, all three rows. */
 @media(max-width:560px){
-  .cta-btns,.csp-cta{flex-direction:column;align-items:stretch}
+  /* width:100% + align-self matter as much as the stacking: both rows are
+     flex/grid children of a centred parent, so they were shrinking to their
+     content — 217px and 268px inside a 390px screen. The buttons filled the
+     row perfectly; the row just wasn't the width of the page. */
+  .cta-btns,.csp-cta{flex-direction:column;align-items:stretch;width:100%;align-self:stretch;max-width:none}
   .cta-btns .btn-p,.cta-btns .btn-s,
   .csp-cta .btn-p,.csp-cta .btn-s{width:100%;justify-content:center;white-space:nowrap}
 }
@@ -742,4 +746,10 @@ section[id],footer[id]{scroll-margin-top:88px}
      GPUs. The strip is edge-to-edge on a phone anyway, so there's nothing for
      the mask to hide. */
   .strip-inner{-webkit-mask:none;mask:none}
+}
+
+/* 38px of card padding each side leaves the buttons at 268px on a 390px
+   screen — they fill the card, but the card is the problem. */
+@media(max-width:560px){
+  .cta-card{padding-left:20px;padding-right:20px}
 }
