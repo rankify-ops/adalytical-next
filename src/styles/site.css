@@ -625,3 +625,53 @@ section[id],footer[id]{scroll-margin-top:88px}
   .framed::before,.framed::after{display:none}
   .framed{border-top:none}
 }
+
+/* ================ GOOGLE ADS PICKER ================ */
+.gads-pick{position:fixed;inset:0;z-index:1200;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(6,20,15,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .2s ease}
+.gads-pick.is-open{opacity:1}
+.gads-panel{position:relative;width:100%;max-width:560px;background:#fff;border-radius:22px;padding:34px 30px 30px;box-shadow:0 30px 80px rgba(0,0,0,.28);transform:translateY(10px) scale(.98);transition:transform .25s cubic-bezier(.22,1,.36,1)}
+.gads-pick.is-open .gads-panel{transform:none}
+.gads-x{position:absolute;top:14px;right:16px;width:34px;height:34px;border:0;border-radius:50%;background:var(--g100,#f2f4f3);color:var(--g600,#5b6b64);font-size:20px;line-height:1;cursor:pointer;transition:background .2s}
+.gads-x:hover{background:var(--g200,#e4e8e6)}
+.gads-eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brand,#0b7a52)}
+.gads-title{margin-top:8px;font-size:clamp(1.4rem,3vw,1.85rem);font-weight:600;letter-spacing:-.03em;color:var(--forest,#0d2b21)}
+.gads-sub{margin-top:8px;font-size:.92rem;line-height:1.5;color:var(--g600,#5b6b64)}
+.gads-opts{display:grid;gap:10px;margin-top:22px}
+.gads-opt{display:block;padding:16px 18px;border:1px solid var(--g200,#e4e8e6);border-radius:14px;text-decoration:none;transition:border-color .2s,background .2s,transform .2s}
+.gads-opt:hover,.gads-opt:focus-visible{border-color:var(--brand,#0b7a52);background:var(--g50,#f7f9f8);transform:translateX(2px)}
+.gads-opt-label{display:flex;align-items:center;gap:8px;font-size:1rem;font-weight:650;color:var(--forest,#0d2b21)}
+.gads-opt-sub{display:block;margin-top:3px;font-size:.85rem;color:var(--g600,#5b6b64)}
+@media(max-width:560px){.gads-panel{padding:28px 20px 22px;border-radius:18px}}
+@media(prefers-reduced-motion:reduce){.gads-pick,.gads-panel,.gads-opt{transition:none}}
+
+/* Logo strip ran only between the hero's two frame lines, so on a wide screen
+   it stopped ~90px short of each edge. Full-bleed from the desktop breakpoint
+   up, with a short fade at the very edges instead. */
+@media(min-width:941px){
+  .strip-inner{
+    -webkit-mask:linear-gradient(90deg,transparent 0,#000 40px,#000 calc(100% - 40px),transparent 100%);
+    mask:linear-gradient(90deg,transparent 0,#000 40px,#000 calc(100% - 40px),transparent 100%)}
+}
+
+/* The hero's bottom padding stacked on top of the trust strip's own height,
+   leaving a gap under the ROAS card far larger than the one above the logos. */
+@media(max-width:940px){
+  .hero{padding-bottom:36px}
+  .hero-float{margin-top:14px}
+}
+@media(max-width:560px){
+  .hero{padding-bottom:28px}
+  /* The two counter ticks wrap onto a second line at this width and read as
+     broken. Four is enough on a phone. */
+  .cta-ticks .cm-wide{display:none}
+}
+
+/* The hero's frame lines used to bracket the logo strip, which made sense when
+   the strip stopped at them. Now it runs full width, so the two verticals just
+   cut through the logos. */
+@media(min-width:941px){
+  .trust-strip::before,.trust-strip::after{display:none}
+}
+/* Composite the phone columns so a 40s transform doesn't run on the main
+   thread alongside the rest of the page. */
+.swall-col{will-change:transform}

@@ -1,4 +1,12 @@
 // AUTO-GENERATED from ../adalytical/about.html — do not hand-edit; regenerate via scripts/gen_page.py
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog | Google Ads tips, trends & tutorials",
+  description: "Google Ads tips, trends and tutorials from an ex-Google Ads team.",
+  alternates: { canonical: "/blog/" },
+};
+
 import Script from "next/script";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";

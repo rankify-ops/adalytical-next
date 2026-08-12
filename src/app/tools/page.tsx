@@ -1,4 +1,12 @@
 // AUTO-GENERATED from ../adalytical/about.html — do not hand-edit; regenerate via scripts/gen_page.py
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Free tools | Tools to supercharge your Google Ads",
+  description: "Free calculators and tools to supercharge your Google Ads.",
+  alternates: { canonical: "/tools/" },
+};
+
 import Script from "next/script";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";

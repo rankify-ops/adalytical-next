@@ -1,4 +1,12 @@
 // AUTO-GENERATED from ../adalytical/landing-pages.html — do not hand-edit; regenerate via scripts/gen_page.py
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Conversion Optimisation | Landing pages that turn clicks into customers",
+  description: "Fast, conversion-led landing pages that turn paid clicks into customers.",
+  alternates: { canonical: "/landing-pages/" },
+};
+
 import Script from "next/script";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";

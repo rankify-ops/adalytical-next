@@ -1,4 +1,12 @@
 // AUTO-GENERATED from ../adalytical/about.html — do not hand-edit; regenerate via scripts/gen_page.py
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Adalytical | One of the fastest-growing Google Ads agencies in the world",
+  description: "Ex-Google Ads team experience, no lock-in contracts, and the specialist doing the work.",
+  alternates: { canonical: "/about/" },
+};
+
 import Script from "next/script";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";

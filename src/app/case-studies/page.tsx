@@ -1,4 +1,12 @@
 // AUTO-GENERATED from ../adalytical/case-studies.html — do not hand-edit; regenerate via scripts/gen_page.py
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Case studies | Real clients. Real performance",
+  description: "Real accounts, real numbers — what changed and what it returned.",
+  alternates: { canonical: "/case-studies/" },
+};
+
 import Script from "next/script";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";

@@ -138,9 +138,9 @@ export default function Home() {
           <span className="cm-sep"></span>
           <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span>
           <span className="cm-sep"></span>
-          <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span>&nbsp;accounts audited</span>
+          <span className="cm-i cm-wide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span>&nbsp;accounts audited</span>
           <span className="cm-sep"></span>
-          <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg><span className="cnt" data-target="30" data-suffix="+">30+</span>&nbsp;agencies trained</span>
+          <span className="cm-i cm-wide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg><span className="cnt" data-target="30" data-suffix="+">30+</span>&nbsp;agencies trained</span>
         </div>
       </div>
 

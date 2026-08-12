@@ -588,3 +588,96 @@ document.querySelectorAll('.vtst').forEach(function(card){
     card.appendChild(f);
   });
 });
+
+/* ---------------------------------------------------------------------------
+   "Google Ads Management" picker
+   ---------------------------------------------------------------------------
+   Google Ads isn't one page — the pitch differs by business model, so the
+   links pointed at a generic services target that answered nobody. Clicking
+   any of them now asks which you are and sends you to the page written for it.
+
+   Wired here rather than in the markup so it covers every entry point (the
+   what-we-do card, the services list, the footer column on all pages) without
+   twelve near-identical edits.
+--------------------------------------------------------------------------- */
+(function () {
+  var BASE = (document.querySelector('link[rel="canonical"]') ? '' : '') ||
+    (window.__ADA_BASE__ || '');
+  // Derive the base path from an existing internal link so this works both at
+  // the domain root and under /adalytical-next/ on Pages.
+  var probe = document.querySelector('a[href*="/ecommerce/"]');
+  if (probe) {
+    var h = probe.getAttribute('href') || '';
+    BASE = h.slice(0, h.indexOf('/ecommerce/'));
+  }
+
+  var OPTIONS = [
+    { label: 'E-commerce', sub: 'Shopping, feeds and ROAS on product catalogues.', href: BASE + '/ecommerce/' },
+    { label: 'Lead Generation', sub: 'Search and calls that turn into booked jobs.', href: BASE + '/lead-generation/' },
+    { label: 'SaaS', sub: 'Demo requests and trials, not raw traffic.', href: BASE + '/saas/' }
+  ];
+
+  var overlay = null;
+  var lastFocus = null;
+
+  function close() {
+    if (!overlay) return;
+    overlay.classList.remove('is-open');
+    document.documentElement.style.overflow = '';
+    var el = overlay;
+    setTimeout(function () { if (el && el.parentNode) el.parentNode.removeChild(el); }, 200);
+    overlay = null;
+    if (lastFocus) lastFocus.focus();
+  }
+
+  function open() {
+    if (overlay) return;
+    lastFocus = document.activeElement;
+
+    overlay = document.createElement('div');
+    overlay.className = 'gads-pick';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-label', 'Choose your business type');
+
+    var html = '<div class="gads-panel">'
+      + '<button class="gads-x" type="button" aria-label="Close">&times;</button>'
+      + '<p class="gads-eyebrow">Google Ads Management</p>'
+      + '<h3 class="gads-title">Which one are you?</h3>'
+      + '<p class="gads-sub">The strategy changes with the business model. Pick yours and we\u2019ll show you the version written for it.</p>'
+      + '<div class="gads-opts">';
+    OPTIONS.forEach(function (o) {
+      html += '<a class="gads-opt" href="' + o.href + '">'
+        + '<span class="gads-opt-label">' + o.label + '<span aria-hidden="true">\u2192</span></span>'
+        + '<span class="gads-opt-sub">' + o.sub + '</span>'
+        + '</a>';
+    });
+    html += '</div></div>';
+    overlay.innerHTML = html;
+
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay || e.target.classList.contains('gads-x')) close();
+    });
+
+    document.body.appendChild(overlay);
+    document.documentElement.style.overflow = 'hidden';
+    // next frame so the transition runs
+    requestAnimationFrame(function () { overlay.classList.add('is-open'); });
+    var first = overlay.querySelector('.gads-opt');
+    if (first) first.focus();
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var name = a.querySelector('.wwd-name');
+    var text = (name ? name.textContent : a.textContent) || '';
+    if (text.replace(/\s+/g, ' ').trim().indexOf('Google Ads Management') !== 0) return;
+    e.preventDefault();
+    open();
+  });
+})();
