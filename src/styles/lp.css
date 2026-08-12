@@ -405,7 +405,8 @@
 .contact-ic svg{width:26px;height:26px;color:var(--brand)}
 .contact-card h3{font-size:1.14rem;color:var(--forest);margin-bottom:9px;letter-spacing:-.02em}
 .contact-card p{font-size:.92rem;color:var(--g600);line-height:1.6;margin-bottom:16px}
-.contact-card a.contact-link{font-size:.92rem;font-weight:700;color:var(--brand);display:inline-flex;align-items:center;gap:6px}
+.contact-card a.contact-link{font-size:.92rem;font-weight:700;color:var(--brand);display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap}
+.contact-card a.contact-link svg{width:16px;height:16px;flex:none}
 @media(max-width:820px){.post-grid,.tool-grid,.contact-grid{grid-template-columns:1fr}}
 @media(min-width:821px) and (max-width:1040px){.post-grid,.contact-grid{grid-template-columns:1fr 1fr}}
 
@@ -459,9 +460,9 @@
 .lv-phone::before{content:'';position:absolute;top:15px;left:50%;transform:translateX(-50%);width:92px;height:20px;background:#0d1f15;border-radius:0 0 14px 14px;z-index:3}
 .lv-screen{position:relative;height:100%;background:linear-gradient(180deg,#f3f6f2,#e9efe9);border-radius:28px;overflow:hidden}
 .lv-bar{position:absolute;top:0;left:0;right:0;height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-size:.7rem;font-weight:600;color:var(--forest);z-index:2;background:linear-gradient(180deg,rgba(243,246,242,.96),rgba(243,246,242,0))}
-.lv-feed{position:absolute;top:48px;left:0;right:0;display:flex;flex-direction:column;gap:10px;padding:0 12px;animation:adl-feed 16s linear infinite}
+.lv-feed{position:absolute;top:48px;left:0;right:0;display:flex;flex-direction:column;padding:0 12px;animation:adl-feed 16s linear infinite;will-change:transform}
 .lv-mask{position:absolute;inset:0;z-index:2;pointer-events:none;-webkit-mask-image:linear-gradient(180deg,#000 0,#000 84%,transparent 100%);mask-image:linear-gradient(180deg,#000 0,#000 84%,transparent 100%)}
-.lv-note{display:flex;align-items:flex-start;gap:10px;background:#fff;border:1px solid rgba(30,55,40,.07);border-radius:14px;padding:11px 12px;box-shadow:0 6px 16px rgba(20,42,30,.07)}
+.lv-note{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px;background:#fff;border:1px solid rgba(30,55,40,.07);border-radius:14px;padding:11px 12px;box-shadow:0 6px 16px rgba(20,42,30,.07)}
 .lv-ico{flex:none;width:30px;height:30px;border-radius:9px;background:var(--forest);color:#fff;display:flex;align-items:center;justify-content:center}
 .lv-ico svg{width:16px;height:16px}
 .lv-txt b{display:block;font-size:.76rem;color:var(--forest);line-height:1.25}
@@ -521,11 +522,13 @@
 /* review widget pinned to the TOP of the hero copy, above the eyebrow */
 .csp-hero-copy{display:flex;flex-direction:column}
 .csp-hero-copy .revw{order:-1;align-self:flex-start;margin-top:0;margin-bottom:20px}
-.csp-hero:not(.has-fig) .csp-hero-copy .revw{align-self:center}
+.csp-hero:not(.has-fig) .csp-hero-copy .revw{align-self:flex-start}
 @media(max-width:820px){.csp-hero.has-fig .csp-hero-copy .revw{align-self:flex-start}}
 
 /* centered heroes (no has-fig): also pin the review widget to the top */
-.csp-hero:not(.has-fig){display:flex;flex-direction:column;align-items:center}
+.csp-hero:not(.has-fig){display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+.csp-hero:not(.has-fig) p{margin-left:0;margin-right:0}
+.csp-hero:not(.has-fig) h1{margin-left:0;margin-right:0}
 .csp-hero:not(.has-fig)>.revw{order:-1;margin-bottom:18px}
 
 /* ============ HERO CHECK-TICKS (under hero copy) ============ */
@@ -570,7 +573,7 @@
 .csp-hero-copy .csp-ticks{order:2;margin-top:24px}
 .csp-hero:not(.has-fig) .csp-cta{order:1}
 .csp-hero:not(.has-fig) .csp-ticks{order:2}
-.csp-hero:not(.has-fig) .csp-ticks{justify-items:center;max-width:520px}
+.csp-hero:not(.has-fig) .csp-ticks{justify-items:start;max-width:520px}
 
 /* subtle pulsing dot on the primary "Book a strategy call" buttons */
 @keyframes ctaDotPing{0%{box-shadow:0 0 0 0 rgba(255,255,255,.55)}70%,100%{box-shadow:0 0 0 7px rgba(255,255,255,0)}}
