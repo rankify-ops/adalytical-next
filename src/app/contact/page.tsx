@@ -119,36 +119,7 @@ export default function Contact() {
     <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
   </div>
 </div>
-<section className="sec sec-cream sec-w framed rvsec">
-  <div className="ctr">
-    <div className="shead">
-      <span className="shead-chip rv"><span className="chip-plus">+</span> Get in touch</span>
-      <div className="shead-main"><span className="shead-brand rv">Adalytical®</span><h2 className="shead-t rv">The fastest way <span className="dim">to get answers.</span></h2></div>
-    </div>
-    <div className="contact-grid rv">
-      <div className="contact-card">
-        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4" strokeLinecap="round"/></svg></span>
-        <h3>Book a strategy call</h3>
-        <p>A free, no-obligation 30-minute call. We audit your account live and map out exactly where the growth is.</p>
-        <a href={`${BASE}/#book`} className="contact-link">Book a call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-      <div className="contact-card">
-        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" strokeLinecap="round"/></svg></span>
-        <h3>Get a free audit</h3>
-        <p>We’ll dig into your account and send back the biggest wins and wasted-spend leaks — yours to keep, whether we work together or not.</p>
-        <a href={`${BASE}/#audit`} className="contact-link">Request an audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-      <div className="contact-card">
-        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
-        <h3>Fast response</h3>
-        <p>Every enquiry gets a reply within 24 hours — usually much faster during business hours (AEST). You’ll speak to a senior strategist, never a junior.</p>
-        <a href={`${BASE}/#book`} className="contact-link">Start now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-    </div>
-  </div>
-</section>
-{/* ============ CTA ============ */}
-{/* ============ CONTACT DETAILS + FORM ============ */}
+
 <section className="sec framed rvsec" id="enquiry">
   <div className="ctr">
     <div className="cform-split">
@@ -229,7 +200,36 @@ export default function Contact() {
     </div>
   </div>
 </section>
-
+<section className="sec sec-cream sec-w framed rvsec">
+  <div className="ctr">
+    <div className="shead">
+      <span className="shead-chip rv"><span className="chip-plus">+</span> Get in touch</span>
+      <div className="shead-main"><span className="shead-brand rv">Adalytical®</span><h2 className="shead-t rv">The fastest way <span className="dim">to get answers.</span></h2></div>
+    </div>
+    <div className="contact-grid rv">
+      <div className="contact-card">
+        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4" strokeLinecap="round"/></svg></span>
+        <h3>Book a strategy call</h3>
+        <p>A free, no-obligation 30-minute call. We audit your account live and map out exactly where the growth is.</p>
+        <a href={`${BASE}/#book`} className="contact-link">Book a call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+      </div>
+      <div className="contact-card">
+        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" strokeLinecap="round"/></svg></span>
+        <h3>Get a free audit</h3>
+        <p>We’ll dig into your account and send back the biggest wins and wasted-spend leaks — yours to keep, whether we work together or not.</p>
+        <a href={`${BASE}/#audit`} className="contact-link">Request an audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+      </div>
+      <div className="contact-card">
+        <span className="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+        <h3>Fast response</h3>
+        <p>Every enquiry gets a reply within 24 hours — usually much faster during business hours (AEST). You’ll speak to a senior strategist, never a junior.</p>
+        <a href={`${BASE}/#book`} className="contact-link">Start now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+{/* ============ CTA ============ */}
+{/* ============ CONTACT DETAILS + FORM ============ */}
 <section className="sec sec-cream cta framed rvsec" id="book">
   <div className="ctr"><div className="cta-card rv">
     <span className="sec-tag">Get started</span>
