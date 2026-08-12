@@ -10,6 +10,8 @@ export default function LandingPages() {
 
 {/* ============ NAV ============ */}
 <nav className="nav">
+  <span className="xmark xm-nl" aria-hidden="true"></span>
+  <span className="xmark xm-nr" aria-hidden="true"></span>
   <div className="nav-in">
     <a href={`${BASE}/`} className="logo" aria-label="Adalytical home">
       <img className="logo-img logo-light" src={`${BASE}/images/adalytical-logo-white.svg`} alt="Adalytical" />
@@ -22,21 +24,21 @@ export default function LandingPages() {
           <div className="mega-card">
             <div className="mega-col">
               <h4><a href={`${BASE}/ecommerce/`}>E-commerce</a></h4>
-              <a href={`${BASE}/ecommerce/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/ecommerce/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/ecommerce/#merchant-center`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 3h8l10 10-8 8L3 11V3z" strokeLinejoin="round"/><circle cx="7.5" cy="7.5" r="1.4"/></svg> Merchant Center</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
             </div>
             <div className="mega-col">
               <h4><a href={`${BASE}/lead-generation/`}>Lead Generation</a></h4>
-              <a href={`${BASE}/lead-generation/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/lead-generation/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/lead-generation/#call-tracking`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg> Call &amp; Form Tracking</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
             </div>
             <div className="mega-col">
               <h4><a href={`${BASE}/saas/`}>SaaS</a></h4>
-              <a href={`${BASE}/saas/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/saas/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/saas/#demo-funnels`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 4h18l-7 8v7l-4 2v-9z" strokeLinejoin="round"/></svg> Demo &amp; Trial Funnels</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
@@ -72,14 +74,14 @@ export default function LandingPages() {
   </div>
   <ul className="mdrawer-list">
     <li><a href={`${BASE}/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 11l8-6 8 6v9H4z" strokeLinejoin="round"/><path d="M9 20v-6h6v6" strokeLinejoin="round"/></svg></span>Home<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/blog/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round"/></svg></span>Blog<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/tools/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" strokeLinejoin="round"/></svg></span>Tools<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/case-studies/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18" strokeLinecap="round"/><path d="M7 14l4-4 3 3 5-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Case Studies<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/ecommerce/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 6h15l-1.5 9h-12z" strokeLinejoin="round"/><path d="M6 6 5 3H2" strokeLinecap="round"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg></span>E-commerce<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/lead-generation/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Lead Generation<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/saas/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg></span>SaaS<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/landing-pages/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg></span>Landing Pages &amp; CRO<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/web-development/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M8 4l-4 8 4 8M16 4l4 8-4 8M13 3l-2 18" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Web Development<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/blog/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round"/></svg></span>Blog<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/tools/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" strokeLinejoin="round"/></svg></span>Tools<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/case-studies/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18" strokeLinecap="round"/><path d="M7 14l4-4 3 3 5-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Case Studies<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/about/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5" strokeLinecap="round"/><path d="M16 6a3 3 0 0 1 0 6M21 20c0-2.4-1.4-4-3.4-4.7" strokeLinecap="round"/></svg></span>About<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/contact/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Contact<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
   </ul>
@@ -97,9 +99,53 @@ export default function LandingPages() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Conversion Optimisation</span>
     <h1 className="rv">Landing pages that turn <span className="accent">clicks into customers.</span></h1>
     <p className="rv">The best campaign in the world dies on a slow, generic page. We build fast, conversion-led landing pages mapped to every campaign — then A/B test them until they climb.</p>
+    <ul className="csp-ticks rv">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Built to convert, not just look good</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Mobile-first, sub-second load</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>A/B tested until they climb</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Message-matched to each campaign</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Deal direct, no managers</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Reply within 24 hours</li>
+    </ul>
+    <div className="revw rv">
+      <span className="revw-avs">
+        <span className="revw-av"><img src={`${BASE}/images/avatar-1.jpg`} alt="" width="36" height="36" /></span>
+        <span className="revw-av"><img src={`${BASE}/images/avatar-2.jpg`} alt="" width="36" height="36" /></span>
+        <span className="revw-av"><img src={`${BASE}/images/avatar-3.jpg`} alt="" width="36" height="36" /></span>
+        <span className="revw-av"><img src={`${BASE}/images/avatar-4.jpg`} alt="" width="36" height="36" /></span>
+      </span>
+      <span className="revw-meta">
+        <span className="revw-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></span>
+        <span className="revw-text"><strong>Trusted by 100+</strong> brands worldwide</span>
+      </span>
+    </div>
     <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     </div>
     <div className="csp-hero-fig rv"><img src={`${BASE}/images/gfx-abtest.png`} alt="Landing page A/B test with the winning variant lifting conversions" width="1536" height="1024" /></div>
+  </div>
+</div>
+
+{/* ============ CLIENT LOGO CAROUSEL ============ */}
+<div className="trust-strip rvsec" aria-label="Brands we work with">
+  <div className="strip-inner">
+    <div className="marquee-track">
+      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="Personalised Favours" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="Before You Speak" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="Hedonist" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="Pet Supplies Australia" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="Aaria London" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="NADT" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="Pinkish Pods" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="Work Sharp Sharpeners" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="" /></span>
+    </div>
   </div>
 </div>
 
@@ -262,7 +308,7 @@ export default function LandingPages() {
       <div>
         <h5>Services</h5>
         <ul className="footer-links">
-          <li><a href={`${BASE}/services/#google-ads`}>Google Ads Management</a></li>
+          <li><a href={`${BASE}/services/`}>Google Ads Management</a></li>
           <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
@@ -294,10 +340,14 @@ export default function LandingPages() {
 </footer>
 
 <div className="float-cta">
-  <a href={`${BASE}/#book`} className="float-btn">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.22a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" strokeLinecap="round" strokeLinejoin="round"/></svg>
-    Book a Strategy Call
-  </a>
+  <div className="fcta-bar">
+    <span className="fcta-dot" aria-hidden="true"></span>
+    <p className="fcta-copy">Ready when you are<span> &mdash; no obligation either way</span></p>
+    <div className="fcta-btns">
+      <a href={`${BASE}/#book`} className="fcta-primary">Book a call</a>
+      <a href={`${BASE}/#audit`} className="fcta-secondary">Free Audit</a>
+    </div>
+  </div>
 </div>
 
 

@@ -1,6 +1,5 @@
 // AUTO-GENERATED from ../adalytical/index.html — do not hand-edit; regenerate via scripts/gen_page.py
 import Script from "next/script";
-import Silk from "@/components/Silk";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
@@ -25,21 +24,21 @@ export default function Home() {
           <div className="mega-card">
             <div className="mega-col">
               <h4><a href={`${BASE}/ecommerce/`}>E-commerce</a></h4>
-              <a href={`${BASE}/ecommerce/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/ecommerce/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/ecommerce/#merchant-center`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 3h8l10 10-8 8L3 11V3z" strokeLinejoin="round"/><circle cx="7.5" cy="7.5" r="1.4"/></svg> Merchant Center</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
             </div>
             <div className="mega-col">
               <h4><a href={`${BASE}/lead-generation/`}>Lead Generation</a></h4>
-              <a href={`${BASE}/lead-generation/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/lead-generation/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/lead-generation/#call-tracking`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg> Call &amp; Form Tracking</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
             </div>
             <div className="mega-col">
               <h4><a href={`${BASE}/saas/`}>SaaS</a></h4>
-              <a href={`${BASE}/saas/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/saas/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/saas/#demo-funnels`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 4h18l-7 8v7l-4 2v-9z" strokeLinejoin="round"/></svg> Demo &amp; Trial Funnels</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
@@ -75,14 +74,14 @@ export default function Home() {
   </div>
   <ul className="mdrawer-list">
     <li><a href={`${BASE}/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 11l8-6 8 6v9H4z" strokeLinejoin="round"/><path d="M9 20v-6h6v6" strokeLinejoin="round"/></svg></span>Home<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/blog/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round"/></svg></span>Blog<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/tools/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" strokeLinejoin="round"/></svg></span>Tools<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/case-studies/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18" strokeLinecap="round"/><path d="M7 14l4-4 3 3 5-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Case Studies<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/ecommerce/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 6h15l-1.5 9h-12z" strokeLinejoin="round"/><path d="M6 6 5 3H2" strokeLinecap="round"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg></span>E-commerce<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/lead-generation/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Lead Generation<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/saas/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg></span>SaaS<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/landing-pages/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg></span>Landing Pages &amp; CRO<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/web-development/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M8 4l-4 8 4 8M16 4l4 8-4 8M13 3l-2 18" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Web Development<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/blog/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round"/></svg></span>Blog<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/tools/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" strokeLinejoin="round"/></svg></span>Tools<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/case-studies/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18" strokeLinecap="round"/><path d="M7 14l4-4 3 3 5-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Case Studies<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/about/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5" strokeLinecap="round"/><path d="M16 6a3 3 0 0 1 0 6M21 20c0-2.4-1.4-4-3.4-4.7" strokeLinecap="round"/></svg></span>About<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/contact/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Contact<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
   </ul>
@@ -110,7 +109,18 @@ export default function Home() {
   <div className="ctr">
     <div className="hero-split">
       <div className="hero-copy">
-        <span className="hero-trust rv"><span className="chip-plus">+</span> Ex-Google · One of the world’s fastest-growing Google Ads agencies</span>
+        <div className="revw rv">
+          <span className="revw-avs">
+            <span className="revw-av"><img src={`${BASE}/images/avatar-1.jpg`} alt="" width="36" height="36" /></span>
+            <span className="revw-av"><img src={`${BASE}/images/avatar-2.jpg`} alt="" width="36" height="36" /></span>
+            <span className="revw-av"><img src={`${BASE}/images/avatar-3.jpg`} alt="" width="36" height="36" /></span>
+            <span className="revw-av"><img src={`${BASE}/images/avatar-4.jpg`} alt="" width="36" height="36" /></span>
+          </span>
+          <span className="revw-meta">
+            <span className="revw-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></span>
+            <span className="revw-text"><strong>Trusted by 100+</strong> brands worldwide</span>
+          </span>
+        </div>
         <h1 className="rv">Grow profitably with <span className="accent">Google Ads</span>.</h1>
         <p className="hero-sub rv">Helping brands scale with proven, profitable Google Ads strategies — built on years of insider experience inside Google’s own Ads team. No lock-in contracts, no guesswork.</p>
         <div className="hero-btns rv">
@@ -119,12 +129,14 @@ export default function Home() {
           </a>
           <a href="#book" className="btn-s">Get a Free Audit</a>
         </div>
-        <div className="cta-micro rv">
+        <div className="cta-micro cta-ticks rv">
           <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Free &amp; no obligation</span>
           <span className="cm-sep"></span>
           <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts</span>
           <span className="cm-sep"></span>
           <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Reply within 24h</span>
+          <span className="cm-sep"></span>
+          <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span>
         </div>
       </div>
 
@@ -170,7 +182,6 @@ export default function Home() {
     <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="Aaria London" /></span>
     <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="NADT" /></span>
     <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="Pinkish Pods" /></span>
-    <span className="mq-item"><img src={`${BASE}/images/rankify.png`} alt="Rankify" /></span>
     <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="Work Sharp Sharpeners" /></span>
     <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="" /></span>
     <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="" /></span>
@@ -179,7 +190,6 @@ export default function Home() {
     <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="" /></span>
     <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="" /></span>
     <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="" /></span>
-    <span className="mq-item"><img src={`${BASE}/images/rankify.png`} alt="" /></span>
     <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="" /></span>
   </div>
   </div>
@@ -189,7 +199,6 @@ export default function Home() {
 {/* ============ BIG-NUMBER MOMENT ============ */}
 <section className="bn-wrap rvsec">
   <div className="bn-band rv">
-    <div className="bn-silk" aria-hidden="true"><Silk color="#0f2e1e" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
     <div className="bn-eyebrow">The number that matters</div>
     <div className="bn-huge">4.08&times;</div>
     <p className="bn-sub"><strong>Average ROAS across every account we manage.</strong> Not clicks. Not impressions. The one number that decides whether your Google Ads actually make money.</p>
@@ -292,6 +301,55 @@ export default function Home() {
   </div>
 </section>
 
+{/* ============ WHAT WE DO (glass cards) ============ */}
+<section className="sec sec-cream framed rvsec" id="what-we-do">
+    <div className="ctr">
+      <div className="wwd-head rv">
+        <span className="shead-chip"><span className="chip-plus">+</span> What we do</span>
+        <h2 className="wwd-title">Everything you need to get found, <span className="dim">and everything you need to convert.</span></h2>
+        <p className="wwd-sub">Pick the one you came for. Every service is run by the specialist doing the work — no account handed to a junior, no guesswork.</p>
+      </div>
+      <div className="wwd-grid">
+        <a href={`${BASE}/services/`} className="wwd-card rv">
+          <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></span>
+          <span className="wwd-name">Google Ads Management <span className="wwd-arr" aria-hidden="true">→</span></span>
+          <span className="wwd-line">Search, Shopping, YouTube and Performance Max campaigns pointed at profit, not clicks.</span>
+          <span className="wwd-tag">Fully managed</span>
+        </a>
+        <a href={`${BASE}/ecommerce/#merchant-center`} className="wwd-card rv">
+          <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M3 3h8l10 10-8 8L3 11V3z" strokeLinejoin="round"/><circle cx="7.5" cy="7.5" r="1.4"/></svg></span>
+          <span className="wwd-name">Merchant Center <span className="wwd-arr" aria-hidden="true">→</span></span>
+          <span className="wwd-line">Your product feed optimised daily for visibility, compliance and conversions.</span>
+          <span className="wwd-tag">Optimised daily</span>
+        </a>
+        <a href={`${BASE}/landing-pages/`} className="wwd-card rv">
+          <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg></span>
+          <span className="wwd-name">Landing Pages &amp; CRO <span className="wwd-arr" aria-hidden="true">→</span></span>
+          <span className="wwd-line">Fast, conversion-led pages that turn cold traffic into paying customers.</span>
+          <span className="wwd-tag">Built to convert</span>
+        </a>
+        <a href={`${BASE}/lead-generation/#call-tracking`} className="wwd-card rv">
+          <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+          <span className="wwd-name">Call &amp; Form Tracking <span className="wwd-arr" aria-hidden="true">→</span></span>
+          <span className="wwd-line">Every lead tracked end-to-end, so you know exactly which dollar returned.</span>
+          <span className="wwd-tag">Full-funnel tracking</span>
+        </a>
+        <a href={`${BASE}/saas/#demo-funnels`} className="wwd-card rv">
+          <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M3 4h18l-7 8v7l-4 2v-9z" strokeLinejoin="round"/></svg></span>
+          <span className="wwd-name">Demo &amp; Trial Funnels <span className="wwd-arr" aria-hidden="true">→</span></span>
+          <span className="wwd-line">Campaigns aimed at demo requests and free trials rather than raw traffic.</span>
+          <span className="wwd-tag">SaaS growth</span>
+        </a>
+        <a href={`${BASE}/web-development/`} className="wwd-card rv">
+          <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+          <span className="wwd-name">Web Development <span className="wwd-arr" aria-hidden="true">→</span></span>
+          <span className="wwd-line">High-performance sites built around how your customers actually decide.</span>
+          <span className="wwd-tag">Custom build</span>
+        </a>
+      </div>
+    </div>
+</section>
+
 {/* ============ DONE-FOR-YOU COMPARISON ============ */}
 <section className="sec sec-cream sec-w framed rvsec" id="approach">
   <span className="xmark xm-sl" aria-hidden="true"></span>
@@ -329,10 +387,9 @@ export default function Home() {
   </div>
 </section>
 
-{/* ============ SERVICES — DARK BAND ============ */}
+{/* ============ SERVICES (accordion) ============ */}
 <section className="band-wrap rvsec" id="services">
   <div className="band">
-    <div className="band-silk" aria-hidden="true"><Silk color="#0f2e1e" speed={4} scale={1.5} noiseIntensity={1.1} rotation={0.15} /></div>
     <div className="ctr">
       <div className="band-top rv">
         <span className="shead-chip lite"><span className="chip-plus lite">+</span> What we do</span>
@@ -351,23 +408,20 @@ export default function Home() {
           <div className="srow-body">
             <div className="srow-inner">
               <span className="srow-sp" aria-hidden="true"></span>
-              <div className="srow-main">
-                <div className="srow-thumb">
-                  <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="5" width="28" height="24" rx="3.5"/><path d="M3 11h28"/><circle cx="7" cy="8" r="1.1" fill="currentColor" stroke="none"/><path d="M9 24v-5M15 24v-8M21 24v-3.5M27 24v-9" strokeLinecap="round" className="acc"/></svg>
-                </div>
+              <div className="srow-content">
                 <p className="srow-desc">We don’t just run ads. We build high-performance systems tailored to your brand — from strategy to split tests, every move serves your bottom line.</p>
-              </div>
-              <div className="srow-feats">
-                <span className="sf-label">Features</span>
-                <div className="sf-pills">
-                  <span className="sf-pill">Search</span>
-                  <span className="sf-pill">Shopping</span>
-                  <span className="sf-pill">YouTube</span>
-                  <span className="sf-pill">Performance Max</span>
-                  <span className="sf-pill">Split Testing</span>
-                  <span className="sf-pill">Full-Funnel Tracking</span>
-                  <span className="sf-pill more">4+</span>
+                <div className="srow-feats">
+                  <span className="sf-label">What&rsquo;s included</span>
+                  <div className="sf-pills">
+                    <span className="sf-pill">Search</span>
+                    <span className="sf-pill">Shopping</span>
+                    <span className="sf-pill">YouTube</span>
+                    <span className="sf-pill">Performance Max</span>
+                    <span className="sf-pill">Split Testing</span>
+                    <span className="sf-pill">Full-Funnel Tracking</span>
+                  </div>
                 </div>
+                <a href="#book" className="srow-link">See Google Ads Management <span aria-hidden="true">&rarr;</span></a>
               </div>
             </div>
           </div>
@@ -382,21 +436,19 @@ export default function Home() {
           <div className="srow-body">
             <div className="srow-inner">
               <span className="srow-sp" aria-hidden="true"></span>
-              <div className="srow-main">
-                <div className="srow-thumb">
-                  <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M7 10h20l-2.2 12.5H9.2z" strokeLinejoin="round"/><path d="M7 10 5.8 6H3" strokeLinecap="round" strokeLinejoin="round"/><circle cx="12" cy="27.5" r="2"/><circle cx="22.5" cy="27.5" r="2"/><path d="M13.5 15l2.5 2.5 5-5" strokeLinecap="round" strokeLinejoin="round" className="acc"/></svg>
-                </div>
+              <div className="srow-content">
                 <p className="srow-desc">We keep your product feed optimised for visibility, compliance and conversions — every single day. Disapprovals and policy issues fixed fast.</p>
-              </div>
-              <div className="srow-feats">
-                <span className="sf-label">Features</span>
-                <div className="sf-pills">
-                  <span className="sf-pill">Daily Feed Optimisation</span>
-                  <span className="sf-pill">Disapproval Fixes</span>
-                  <span className="sf-pill">Policy Compliance</span>
-                  <span className="sf-pill">Image A/B Tests</span>
-                  <span className="sf-pill">CTR Uplift</span>
+                <div className="srow-feats">
+                  <span className="sf-label">What&rsquo;s included</span>
+                  <div className="sf-pills">
+                    <span className="sf-pill">Daily Feed Optimisation</span>
+                    <span className="sf-pill">Disapproval Fixes</span>
+                    <span className="sf-pill">Policy Compliance</span>
+                    <span className="sf-pill">Image A/B Tests</span>
+                    <span className="sf-pill">CTR Uplift</span>
+                  </div>
                 </div>
+                <a href="#book" className="srow-link">See Merchant Center <span aria-hidden="true">&rarr;</span></a>
               </div>
             </div>
           </div>
@@ -411,21 +463,19 @@ export default function Home() {
           <div className="srow-body">
             <div className="srow-inner">
               <span className="srow-sp" aria-hidden="true"></span>
-              <div className="srow-main">
-                <div className="srow-thumb">
-                  <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="4" y="4" width="26" height="26" rx="3.5"/><path d="M4 10.5h26"/><circle cx="8" cy="7.2" r="1.1" fill="currentColor" stroke="none"/><path d="M8 16h12M8 20h8"/><rect x="8" y="24" width="9" height="3.6" rx="1.8" fill="currentColor" stroke="none" className="acc"/></svg>
-                </div>
+              <div className="srow-content">
                 <p className="srow-desc">Turn traffic into customers with fast, conversion-led pages tailored to your brand — built to convert cold traffic into buyers.</p>
-              </div>
-              <div className="srow-feats">
-                <span className="sf-label">Features</span>
-                <div className="sf-pills">
-                  <span className="sf-pill">CRO-First</span>
-                  <span className="sf-pill">Mobile-Optimised</span>
-                  <span className="sf-pill">A/B Tested</span>
-                  <span className="sf-pill">Fast-Loading</span>
-                  <span className="sf-pill">Built to Sell</span>
+                <div className="srow-feats">
+                  <span className="sf-label">What&rsquo;s included</span>
+                  <div className="sf-pills">
+                    <span className="sf-pill">CRO-First</span>
+                    <span className="sf-pill">Mobile-Optimised</span>
+                    <span className="sf-pill">A/B Tested</span>
+                    <span className="sf-pill">Fast-Loading</span>
+                    <span className="sf-pill">Built to Sell</span>
+                  </div>
                 </div>
+                <a href="#book" className="srow-link">See Conversion Optimisation <span aria-hidden="true">&rarr;</span></a>
               </div>
             </div>
           </div>
@@ -440,8 +490,6 @@ export default function Home() {
 
 {/* ============ EVERYTHING INCLUDED (value stack) ============ */}
 <section className="sec sec-cream sec-w framed rvsec" id="included">
-  <span className="xmark xm-sl" aria-hidden="true"></span>
-  <span className="xmark xm-sr" aria-hidden="true"></span>
   <div className="ctr">
     <div className="shead">
       <span className="shead-chip rv"><span className="chip-plus">+</span> What you get</span>
@@ -772,8 +820,6 @@ export default function Home() {
 
 {/* ============ TESTIMONIALS ============ */}
 <section className="sec sec-cream framed rvsec" id="testimonials">
-  <span className="xmark xm-sl" aria-hidden="true"></span>
-  <span className="xmark xm-sr" aria-hidden="true"></span>
   <div className="ctr">
     <div className="shead">
       <span className="shead-chip rv"><span className="chip-plus">+</span> Testimonials</span>
@@ -1023,7 +1069,7 @@ export default function Home() {
       <div>
         <h5>Services</h5>
         <ul className="footer-links">
-          <li><a href={`${BASE}/services/#google-ads`}>Google Ads Management</a></li>
+          <li><a href={`${BASE}/services/`}>Google Ads Management</a></li>
           <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
@@ -1056,10 +1102,14 @@ export default function Home() {
 
 {/* ============ FLOATING CTA ============ */}
 <div className="float-cta">
-  <a href="#book" className="float-btn">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.22a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" strokeLinecap="round" strokeLinejoin="round"/></svg>
-    Book a Strategy Call
-  </a>
+  <div className="fcta-bar">
+    <span className="fcta-dot" aria-hidden="true"></span>
+    <p className="fcta-copy">Ready when you are<span> &mdash; no obligation either way</span></p>
+    <div className="fcta-btns">
+      <a href={`${BASE}/#book`} className="fcta-primary">Book a call</a>
+      <a href={`${BASE}/#audit`} className="fcta-secondary">Free Audit</a>
+    </div>
+  </div>
 </div>
 
 

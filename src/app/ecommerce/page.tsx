@@ -1,5 +1,6 @@
 // AUTO-GENERATED from ../adalytical/ecommerce.html — do not hand-edit; regenerate via scripts/gen_page.py
 import Script from "next/script";
+import LottieIcon from "@/components/LottieIcon";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
@@ -10,6 +11,8 @@ export default function Ecommerce() {
 
 {/* ============ NAV ============ */}
 <nav className="nav">
+  <span className="xmark xm-nl" aria-hidden="true"></span>
+  <span className="xmark xm-nr" aria-hidden="true"></span>
   <div className="nav-in">
     <a href={`${BASE}/`} className="logo" aria-label="Adalytical home">
       <img className="logo-img logo-light" src={`${BASE}/images/adalytical-logo-white.svg`} alt="Adalytical" />
@@ -22,21 +25,21 @@ export default function Ecommerce() {
           <div className="mega-card">
             <div className="mega-col">
               <h4><a href={`${BASE}/ecommerce/`}>E-commerce</a></h4>
-              <a href={`${BASE}/ecommerce/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/ecommerce/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/ecommerce/#merchant-center`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 3h8l10 10-8 8L3 11V3z" strokeLinejoin="round"/><circle cx="7.5" cy="7.5" r="1.4"/></svg> Merchant Center</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
             </div>
             <div className="mega-col">
               <h4><a href={`${BASE}/lead-generation/`}>Lead Generation</a></h4>
-              <a href={`${BASE}/lead-generation/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/lead-generation/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/lead-generation/#call-tracking`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg> Call &amp; Form Tracking</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
             </div>
             <div className="mega-col">
               <h4><a href={`${BASE}/saas/`}>SaaS</a></h4>
-              <a href={`${BASE}/saas/#google-ads`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
+              <a href={`${BASE}/saas/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg> Google Ads</a>
               <a href={`${BASE}/saas/#demo-funnels`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 4h18l-7 8v7l-4 2v-9z" strokeLinejoin="round"/></svg> Demo &amp; Trial Funnels</a>
               <a href={`${BASE}/landing-pages/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg> Landing Pages &amp; CRO</a>
               <a href={`${BASE}/web-development/`}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg> Web Development</a>
@@ -72,14 +75,14 @@ export default function Ecommerce() {
   </div>
   <ul className="mdrawer-list">
     <li><a href={`${BASE}/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 11l8-6 8 6v9H4z" strokeLinejoin="round"/><path d="M9 20v-6h6v6" strokeLinejoin="round"/></svg></span>Home<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/blog/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round"/></svg></span>Blog<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/tools/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" strokeLinejoin="round"/></svg></span>Tools<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
-    <li><a href={`${BASE}/case-studies/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18" strokeLinecap="round"/><path d="M7 14l4-4 3 3 5-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Case Studies<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/ecommerce/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 6h15l-1.5 9h-12z" strokeLinejoin="round"/><path d="M6 6 5 3H2" strokeLinecap="round"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg></span>E-commerce<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/lead-generation/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Lead Generation<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/saas/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4" strokeLinecap="round" strokeLinejoin="round"/></svg></span>SaaS<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/landing-pages/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 8h16M8 13h8M8 17h5" strokeLinecap="round"/></svg></span>Landing Pages &amp; CRO<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/web-development/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M8 4l-4 8 4 8M16 4l4 8-4 8M13 3l-2 18" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Web Development<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/blog/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round"/></svg></span>Blog<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/tools/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" strokeLinejoin="round"/></svg></span>Tools<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
+    <li><a href={`${BASE}/case-studies/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v18h18" strokeLinecap="round"/><path d="M7 14l4-4 3 3 5-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Case Studies<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/about/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5" strokeLinecap="round"/><path d="M16 6a3 3 0 0 1 0 6M21 20c0-2.4-1.4-4-3.4-4.7" strokeLinecap="round"/></svg></span>About<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
     <li><a href={`${BASE}/contact/`}><span className="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>Contact<svg className="mdc" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a></li>
   </ul>
@@ -96,91 +99,230 @@ export default function Ecommerce() {
     <span className="csp-eyebrow rv"><span className="chip-plus">+</span> Google Ads for E-commerce</span>
     <h1 className="rv">Scale <span className="accent">ROAS</span>, not just revenue.</h1>
     <p className="rv">Shopping, Performance Max and a spotless product feed &mdash; engineered to grow your store profitably. Not more spend for its own sake, but more profit from every dollar.</p>
+    <ul className="csp-ticks rv">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Profit-first, not vanity metrics</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads expertise</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Merchant Center handled daily</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel conversion tracking</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Reply within 24 hours</li>
+    </ul>
+    <div className="revw rv">
+      <span className="revw-avs">
+        <span className="revw-av"><img src={`${BASE}/images/avatar-1.jpg`} alt="" width="36" height="36" /></span>
+        <span className="revw-av"><img src={`${BASE}/images/avatar-2.jpg`} alt="" width="36" height="36" /></span>
+        <span className="revw-av"><img src={`${BASE}/images/avatar-3.jpg`} alt="" width="36" height="36" /></span>
+        <span className="revw-av"><img src={`${BASE}/images/avatar-4.jpg`} alt="" width="36" height="36" /></span>
+      </span>
+      <span className="revw-meta">
+        <span className="revw-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></span>
+        <span className="revw-text"><strong>Trusted by 100+</strong> brands worldwide</span>
+      </span>
+    </div>
     <div className="csp-cta rv"><a href={`${BASE}/#book`} className="btn-p">Book a Strategy Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a><a href={`${BASE}/#audit`} className="btn-s">Get a Free Audit</a></div>
     </div>
-    <div className="csp-hero-fig rv"><img src={`${BASE}/images/gfx-shopping-flow.png`} alt="Product ad turning into a tracked, profitable sale" width="1536" height="1024" /></div>
+    <div className="csp-viz rv">
+      <div className="viz-card rankviz">
+        <div className="rv-head">
+          <span className="rv-kick">ROAS by campaign</span>
+          <span className="rv-pill">Last 6 months</span>
+        </div>
+        <ul className="rv-keys">
+          <li><span className="rv-term">Shopping — Bestsellers</span><span className="rv-from">1.9&times;</span><svg className="rv-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h13M13 7l5 5-5 5"/></svg><span className="rv-badge" style={{animationDelay:'0s'}}>4.2&times;</span></li>
+          <li><span className="rv-term">Performance Max</span><span className="rv-from">2.4&times;</span><svg className="rv-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h13M13 7l5 5-5 5"/></svg><span className="rv-badge" style={{animationDelay:'-1.5s'}}>5.1&times;</span></li>
+          <li><span className="rv-term">Search — Brand</span><span className="rv-from">3.1&times;</span><svg className="rv-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h13M13 7l5 5-5 5"/></svg><span className="rv-badge" style={{animationDelay:'-3s'}}>6.4&times;</span></li>
+          <li><span className="rv-term">Remarketing</span><span className="rv-from">1.6&times;</span><svg className="rv-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h13M13 7l5 5-5 5"/></svg><span className="rv-badge" style={{animationDelay:'-4.5s'}}>3.8&times;</span></li>
+        </ul>
+        <div className="rv-chart">
+          <div className="rv-chart-top"><span>Revenue / month</span><span className="rv-up">+312%</span></div>
+          <div className="rv-bars" aria-hidden="true">
+            <i style={{height:'18%',animationDelay:'0s'}}></i>
+            <i style={{height:'26%',animationDelay:'.12s'}}></i>
+            <i style={{height:'24%',animationDelay:'.24s'}}></i>
+            <i style={{height:'38%',animationDelay:'.36s'}}></i>
+            <i style={{height:'47%',animationDelay:'.48s'}}></i>
+            <i style={{height:'61%',animationDelay:'.6s'}}></i>
+            <i style={{height:'74%',animationDelay:'.72s'}}></i>
+            <i style={{height:'96%',animationDelay:'.84s'}}></i>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-{/* ============ SERVICES (fused, tailored to e-commerce) ============ */}
-<section className="sec sec-cream rvsec svc" id="google-ads">
+
+{/* ============ CLIENT LOGO CAROUSEL ============ */}
+<div className="trust-strip rvsec" aria-label="Brands we work with">
+  <div className="strip-inner">
+    <div className="marquee-track">
+      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="Personalised Favours" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="Before You Speak" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="Hedonist" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="Pet Supplies Australia" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="Aaria London" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="NADT" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="Pinkish Pods" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="Work Sharp Sharpeners" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="" /></span>
+    </div>
+  </div>
+</div>
+{/* ============ SERVICES (rankify-style card grid) ============ */}
+<section className="sec sec-cream cardgrid rvsec">
   <div className="ctr">
-    <div className="svc-grid">
-      <div className="svc-copy rv">
-        <span className="svc-num">01 &middot; Google Ads</span>
-        <h2>Google Ads engineered for store ROAS</h2>
-        <p>Search, Shopping and Performance Max, structured around profit &mdash; not vanity revenue. We rebuild your account around high-intent shoppers and let your best-margin products lead the spend.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full account restructure around high-intent shopping</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Shopping &amp; Performance Max built for ROAS, not just spend</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Product-level bid, budget and exclusion control</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Full-funnel conversion tracking from day one</li>
+    <div className="cg-head rv">
+      <span className="cg-eyebrow"><span className="chip-plus">+</span> What we do</span>
+      <h2>Everything your store needs to scale, <span className="dim">profitably.</span></h2>
+      <p>Four services, one team — the campaigns, the feed, the pages and the store itself, all pointed at profit instead of vanity revenue.</p>
+    </div>
+    <div className="cg-grid">
+      <a href={`${BASE}/#book`} className="cg-card rv" id="google-ads">
+        <div className="cg-top">
+          <span className="cg-ico"><LottieIcon file="tracking-and-reporting.json" className="cg-lottie" /></span>
+          <span className="cg-num">01</span>
+        </div>
+        <span className="cg-title">Google Ads</span>
+        <ul className="cg-list">
+          <li>Account restructured around high-intent shopping</li>
+          <li>Shopping &amp; Performance Max built for ROAS</li>
+          <li>Product-level bid, budget &amp; exclusion control</li>
+          <li>Full-funnel conversion tracking from day one</li>
         </ul>
-        <a href={`${BASE}/#audit`} className="svc-link">Get a free account audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+        <span className="cg-link">Book a strategy call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+      </a>
+      <a href={`${BASE}/#audit`} className="cg-card rv" id="merchant-center">
+        <div className="cg-top">
+          <span className="cg-ico"><LottieIcon file="ecommerce-brands.json" className="cg-lottie" /></span>
+          <span className="cg-num">02</span>
+        </div>
+        <span className="cg-title">Merchant Center</span>
+        <ul className="cg-list">
+          <li>Daily feed monitoring &amp; disapproval fixes</li>
+          <li>Title, image &amp; attribute optimisation</li>
+          <li>Policy compliance &amp; suspension recovery</li>
+          <li>Feed A/B tests to lift click-through</li>
+        </ul>
+        <span className="cg-link">Free feed audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+      </a>
+      <a href={`${BASE}/landing-pages/`} className="cg-card rv" id="landing-pages">
+        <div className="cg-top">
+          <span className="cg-ico"><LottieIcon file="design.json" className="cg-lottie" /></span>
+          <span className="cg-num">03</span>
+        </div>
+        <span className="cg-title">Landing Pages &amp; CRO</span>
+        <ul className="cg-list">
+          <li>Message-matched to each campaign &amp; product</li>
+          <li>Shopify-ready conversion elements</li>
+          <li>Mobile-first, loads in under a second</li>
+          <li>A/B tested headlines, offers &amp; layouts</li>
+        </ul>
+        <span className="cg-link">Explore landing pages <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+      </a>
+      <a href={`${BASE}/web-development/`} className="cg-card rv" id="web-development">
+        <div className="cg-top">
+          <span className="cg-ico"><LottieIcon file="ongoing-web-development.json" className="cg-lottie" /></span>
+          <span className="cg-num">04</span>
+        </div>
+        <span className="cg-title">Web Development</span>
+        <ul className="cg-list">
+          <li>Custom, conversion-led store builds</li>
+          <li>Blazing-fast, SEO-friendly foundations</li>
+          <li>Clean analytics &amp; server-side tracking</li>
+          <li>Built to scale as your spend grows</li>
+        </ul>
+        <span className="cg-link">Explore web development <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+{/* ============ WHO WE WORK WITH ============ */}
+<section className="sec sec-cream sec-w rvsec">
+  <div className="ctr">
+    <div className="cg-head rv">
+      <span className="cg-eyebrow">Who this is for</span>
+      <h2>Who we work with, <span className="dim">and where we move the needle.</span></h2>
+      <p>Whether you&rsquo;re scaling, starting fresh or cleaning up a mess left by a previous agency &mdash; if you sell online, we can grow it profitably.</p>
+    </div>
+    <div className="numgrid">
+      <div className="numcard rv">
+        <div className="numcard-top"><div className="numcard-dots"><i className="on"></i><i></i><i></i></div><span className="numcard-idx">01</span></div>
+        <h3>Scaling stores</h3>
+        <p>You&rsquo;re getting sales but ROAS is thin or spend is capped. We restructure the account around profit and unlock room to scale.</p>
       </div>
-      <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-manage.png`} alt="Google Ads campaign management and optimisation for e-commerce" loading="lazy" width="1536" height="1024" /></div></div>
+      <div className="numcard rv">
+        <div className="numcard-top"><div className="numcard-dots"><i className="on"></i><i className="on"></i><i></i></div><span className="numcard-idx">02</span></div>
+        <h3>Launching or relaunching</h3>
+        <p>New store, new products or a fresh start &mdash; Google Ads set up properly from day one: tracking, feed and campaigns built for buyers.</p>
+      </div>
+      <div className="numcard rv">
+        <div className="numcard-top"><div className="numcard-dots"><i className="on"></i><i className="on"></i><i className="on"></i></div><span className="numcard-idx">03</span></div>
+        <h3>Rescue &amp; turnaround</h3>
+        <p>Wasted spend, feed disapprovals, a messy account from a previous agency. We audit it, fix it and rebuild around what actually converts.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section className="sec sec-cream sec-w rvsec svc" id="merchant-center">
+{/* ============ WHY ADALYTICAL ============ */}
+<section className="sec sec-cream rvsec">
   <div className="ctr">
-    <div className="svc-grid rev">
-      <div className="svc-copy rv">
-        <span className="svc-num">02 &middot; Merchant Center</span>
-        <h2>A product feed that never leaks sales</h2>
-        <p>Your feed is the engine behind Shopping and Performance Max. We keep it clean, compliant and converting &mdash; every single day &mdash; so disapprovals never quietly cost you revenue.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Daily feed monitoring &amp; disapproval fixes</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Title, image &amp; attribute optimisation for more clicks</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Policy compliance &amp; suspension recovery</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Feed A/B tests to lift click-through</li>
-        </ul>
-        <a href={`${BASE}/#audit`} className="svc-link">Get a free feed audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+    <div className="cg-head rv">
+      <span className="cg-eyebrow">Why Adalytical</span>
+      <h2>Agency-level results, <span className="dim">without the agency overhead.</span></h2>
+    </div>
+    <div className="numgrid">
+      <div className="numcard rv">
+        <div className="numcard-top"><div className="numcard-dots"><i className="on"></i><i></i><i></i></div><span className="numcard-idx">01</span></div>
+        <h3>Ex-Google expertise</h3>
+        <p>Insider knowledge from inside Google&rsquo;s own Ads team &mdash; the strategies and levers most agencies never learn.</p>
       </div>
-      <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-merchant-feed.png`} alt="Merchant Center product feed with all products approved" loading="lazy" width="1536" height="1024" /></div></div>
+      <div className="numcard rv">
+        <div className="numcard-top"><div className="numcard-dots"><i className="on"></i><i className="on"></i><i></i></div><span className="numcard-idx">02</span></div>
+        <h3>Profit-first, not vanity metrics</h3>
+        <p>We optimise to ROAS, CAC and real revenue. Clicks and impressions are noise &mdash; profit is the only scoreboard that matters.</p>
+      </div>
+      <div className="numcard rv">
+        <div className="numcard-top"><div className="numcard-dots"><i className="on"></i><i className="on"></i><i className="on"></i></div><span className="numcard-idx">03</span></div>
+        <h3>No lock-in, no bloat</h3>
+        <p>Month-to-month, cancel anytime, and you deal direct with the specialist running your account &mdash; never a junior.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section className="sec sec-cream rvsec svc" id="landing-pages">
+{/* ============ PHONE SHOWCASE — pages that close the sale ============ */}
+<section className="sec sec-cream sec-w rvsec">
   <div className="ctr">
-    <div className="svc-grid">
-      <div className="svc-copy rv">
-        <span className="svc-num">03 &middot; Landing pages &amp; CRO</span>
-        <h2>Product pages that turn clicks into buyers</h2>
-        <p>The best Shopping click dies on a slow, generic page. We build fast, CRO-first product and landing pages &mdash; with proven Shopify conversion elements &mdash; then A/B test them until they climb.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Message-matched to each campaign &amp; product</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Shopify-ready conversion elements &amp; product templates</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Mobile-first and built to load in under a second</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>A/B tested headlines, offers and layouts</li>
-        </ul>
-        <a href={`${BASE}/landing-pages/`} className="svc-link">Explore landing pages <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
+    <div className="swall-split">
+      <div className="cg-head rv">
+      <span className="cg-eyebrow">Where clicks become customers</span>
+      <h2>The ad is only half the job. <span className="dim">The page closes the sale.</span></h2>
+      <p>The best Shopping click in the world dies on a slow, generic page. We build the fast, conversion-led stores and landing pages that turn that traffic into buyers.</p>
+    </div>
+    <div className="swall-wrap rv">
+      <div className="swall">
+        <div className="swall-col c1">
+          <img src={`${BASE}/images/showcase/01.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/04.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/07.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/10.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/13.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/16.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/01.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/04.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/07.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/10.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/13.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/16.webp`} alt="" loading="eager" />
+        </div>
+        <div className="swall-col c2">
+          <img src={`${BASE}/images/showcase/02.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/05.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/08.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/11.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/14.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/02.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/05.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/08.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/11.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/14.webp`} alt="" loading="eager" />
+        </div>
+        <div className="swall-col c3">
+          <img src={`${BASE}/images/showcase/03.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/06.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/09.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/12.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/15.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/03.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/06.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/09.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/12.webp`} alt="" loading="eager" /><img src={`${BASE}/images/showcase/15.webp`} alt="" loading="eager" />
+        </div>
       </div>
-      <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-abtest.png`} alt="Landing page A/B test with the winning variant lifting conversions" loading="lazy" width="1536" height="1024" /></div></div>
+    </div>
     </div>
   </div>
 </section>
 
-<section className="sec sec-cream sec-w rvsec svc" id="web-development">
-  <div className="ctr">
-    <div className="svc-grid rev">
-      <div className="svc-copy rv">
-        <span className="svc-num">04 &middot; Web development</span>
-        <h2>Storefronts built to scale</h2>
-        <p>Need more than a landing page? We build fast, conversion-led storefronts and custom builds &mdash; the same engineering standard behind pages that turn cold Shopping traffic into buyers.</p>
-        <ul className="svc-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Custom, conversion-led store builds</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Blazing-fast, SEO-friendly foundations</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Clean analytics &amp; server-side conversion tracking</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Built to scale as your spend grows</li>
-        </ul>
-        <a href={`${BASE}/web-development/`} className="svc-link">Explore web development <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg></a>
-      </div>
-      <div className="svc-viz rv"><div className="svc-fig"><img src={`${BASE}/images/gfx-webdev.png`} alt="Custom web development and conversion-led store build" loading="lazy" width="1536" height="1024" /></div></div>
-    </div>
-  </div>
-</section>
 <section className="sec sec-cream sec-stats rvsec">
   <div className="ctr"><div className="stats">
     <div className="stat rv"><span className="stat-val"><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span></span><span className="stat-label">Accounts audited<br />&amp; optimised</span></div>
@@ -258,7 +400,7 @@ export default function Ecommerce() {
       <div>
         <h5>Services</h5>
         <ul className="footer-links">
-          <li><a href={`${BASE}/services/#google-ads`}>Google Ads Management</a></li>
+          <li><a href={`${BASE}/services/`}>Google Ads Management</a></li>
           <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
@@ -290,10 +432,14 @@ export default function Ecommerce() {
 </footer>
 
 <div className="float-cta">
-  <a href={`${BASE}/#book`} className="float-btn">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.22a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" strokeLinecap="round" strokeLinejoin="round"/></svg>
-    Book a Strategy Call
-  </a>
+  <div className="fcta-bar">
+    <span className="fcta-dot" aria-hidden="true"></span>
+    <p className="fcta-copy">Ready when you are<span> &mdash; no obligation either way</span></p>
+    <div className="fcta-btns">
+      <a href={`${BASE}/#book`} className="fcta-primary">Book a call</a>
+      <a href={`${BASE}/#audit`} className="fcta-secondary">Free Audit</a>
+    </div>
+  </div>
 </div>
 
 
