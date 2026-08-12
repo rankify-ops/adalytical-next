@@ -148,6 +148,88 @@ export default function Contact() {
   </div>
 </section>
 {/* ============ CTA ============ */}
+{/* ============ CONTACT DETAILS + FORM ============ */}
+<section className="sec framed rvsec" id="enquiry">
+  <div className="ctr">
+    <div className="cform-split">
+      <div className="cform-side rv">
+        <span className="cg-eyebrow"><span className="chip-plus">+</span> Contact</span>
+        <h2 className="cform-h">Tell us what you&rsquo;re working with.</h2>
+        <p className="cform-p">Send the account, the spend and what &ldquo;good&rdquo; looks like for you. You&rsquo;ll get a straight answer from the person who&rsquo;d run it &mdash; not a sales team.</p>
+
+        <a className="cform-card" href="mailto:ads@adalytical.io">
+          <span className="cform-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M3.5 5.5h17v13h-17z" strokeLinejoin="round"/><path d="m3.5 7 8.5 5.5L20.5 7" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+          <span>
+            <strong>New business</strong>
+            <span>ads@adalytical.io</span>
+          </span>
+        </a>
+        <a className="cform-card" href="mailto:hello@adalytical.io">
+          <span className="cform-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M20.5 15.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3.5 6a2 2 0 0 1 2-2.2h3l1.4 3.5-2 1.4a11.5 11.5 0 0 0 5.4 5.4l1.4-2z" strokeLinejoin="round"/></svg></span>
+          <span>
+            <strong>Everything else</strong>
+            <span>hello@adalytical.io</span>
+          </span>
+        </a>
+
+        <ul className="cform-ticks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Reply within 24 hours, weekdays</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>No lock-in contracts, ever</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>You speak to the specialist, not an account manager</li>
+        </ul>
+      </div>
+
+      {/* Plain POST to Web3Forms: no JS, so it still submits if the bundle
+          fails. Swap FORM_ACCESS_KEY for the real key — until then the
+          endpoint rejects the post rather than silently dropping it. */}
+      <form className="cform rv" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="FORM_ACCESS_KEY" />
+        <input type="hidden" name="subject" value="New enquiry from adalytical.io" />
+        <input type="hidden" name="from_name" value="Adalytical website" />
+        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+        {/* honeypot */}
+        <input type="checkbox" name="botcheck" className="cform-bot" tabIndex={-1} autoComplete="off" />
+
+        <div className="cform-row">
+          <label className="cform-field">
+            <span>Name</span>
+            <input type="text" name="name" required placeholder="Your name" autoComplete="name" />
+          </label>
+          <label className="cform-field">
+            <span>Email</span>
+            <input type="email" name="email" required placeholder="you@company.com" autoComplete="email" />
+          </label>
+        </div>
+        <div className="cform-row">
+          <label className="cform-field">
+            <span>Website</span>
+            <input type="url" name="website" placeholder="https://" autoComplete="url" />
+          </label>
+          <label className="cform-field">
+            <span>Monthly ad spend</span>
+            <select name="spend" defaultValue="">
+              <option value="" disabled>Select a range</option>
+              <option>Not running ads yet</option>
+              <option>Under $5k</option>
+              <option>$5k – $20k</option>
+              <option>$20k – $50k</option>
+              <option>$50k+</option>
+            </select>
+          </label>
+        </div>
+        <label className="cform-field">
+          <span>What are you trying to fix?</span>
+          <textarea name="message" rows={5} required placeholder="Where the account is now, and what you want it doing."></textarea>
+        </label>
+        <button type="submit" className="btn-p cform-submit">Send enquiry
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/></svg>
+        </button>
+        <p className="cform-fine">We only use this to reply. No lists, no sharing.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
 <section className="sec sec-cream cta framed rvsec" id="book">
   <div className="ctr"><div className="cta-card rv">
     <span className="sec-tag">Get started</span>
@@ -169,7 +251,7 @@ export default function Contact() {
         <h5>Services</h5>
         <ul className="footer-links">
           <li><a href={`${BASE}/#services`}>Google Ads Management</a></li>
-          <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
+          <li><a href={`${BASE}/ecommerce/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
         </ul>

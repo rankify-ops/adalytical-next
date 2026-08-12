@@ -662,8 +662,10 @@ section[id],footer[id]{scroll-margin-top:88px}
 @media(max-width:560px){
   .hero{padding-bottom:28px}
   /* The two counter ticks wrap onto a second line at this width and read as
-     broken. Four is enough on a phone. */
-  .cta-ticks .cm-wide{display:none}
+     broken. Four is enough on a phone. Needs the extra specificity and
+     !important: .cta-micro .cm-i{display:inline-flex} lives in lp.css, which
+     loads after this file and ties on specificity, so it was winning. */
+  .cta-ticks .cm-i.cm-wide{display:none!important}
 }
 
 /* The hero's frame lines used to bracket the logo strip, which made sense when
@@ -675,3 +677,69 @@ section[id],footer[id]{scroll-margin-top:88px}
 /* Composite the phone columns so a 40s transform doesn't run on the main
    thread alongside the rest of the page. */
 .swall-col{will-change:transform}
+
+/* Buttons go full width on a phone everywhere, not just in the hero.
+   .hero-btns already stacked at 560 and .csp-cta at 520, but .cta-btns — the
+   row used on contact and ten other sections — never stacked at all, so those
+   buttons stayed pill-width while the hero's went edge to edge. One
+   breakpoint, all three rows. */
+@media(max-width:560px){
+  .cta-btns,.csp-cta{flex-direction:column;align-items:stretch}
+  .cta-btns .btn-p,.cta-btns .btn-s,
+  .csp-cta .btn-p,.csp-cta .btn-s{width:100%;justify-content:center;white-space:nowrap}
+}
+
+/* ================ CONTACT DETAILS + FORM ================ */
+.cform-split{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(28px,4vw,60px);align-items:start}
+.cform-h{margin-top:14px;font-size:clamp(1.5rem,2.6vw,2.1rem);font-weight:600;letter-spacing:-.03em;color:var(--forest,#0d2b21);line-height:1.1}
+.cform-p{margin-top:10px;font-size:.95rem;line-height:1.6;color:var(--g600,#5b6b64);max-width:38ch}
+.cform-card{display:flex;align-items:center;gap:14px;margin-top:14px;padding:14px 16px;border:1px solid var(--g200,#e4e8e6);border-radius:14px;background:#fff;text-decoration:none;transition:border-color .2s,transform .2s}
+.cform-card:hover{border-color:var(--brand,#0b7a52);transform:translateX(2px)}
+.cform-card:first-of-type{margin-top:24px}
+.cform-ico{display:flex;align-items:center;justify-content:center;width:40px;height:40px;flex-shrink:0;border-radius:11px;background:var(--g50,#f2f6f4);color:var(--brand,#0b7a52)}
+.cform-ico svg{width:19px;height:19px}
+.cform-card strong{display:block;font-size:.83rem;font-weight:600;color:var(--forest,#0d2b21)}
+.cform-card strong+span{font-size:.9rem;color:var(--g600,#5b6b64);word-break:break-all}
+.cform-ticks{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:10px}
+.cform-ticks li{display:flex;align-items:flex-start;gap:9px;font-size:.88rem;line-height:1.45;color:var(--g600,#5b6b64)}
+.cform-ticks svg{width:14px;height:14px;margin-top:3px;flex-shrink:0;color:var(--brand,#0b7a52)}
+
+.cform{background:#fff;border:1px solid var(--g200,#e4e8e6);border-radius:20px;padding:clamp(22px,3vw,32px);box-shadow:0 18px 50px rgba(13,43,33,.07)}
+.cform-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cform-field{display:block;margin-bottom:14px}
+.cform-field>span{display:block;margin-bottom:6px;font-size:.78rem;font-weight:600;letter-spacing:.01em;color:var(--forest,#0d2b21)}
+.cform-field input,.cform-field select,.cform-field textarea{width:100%;padding:12px 14px;font:inherit;font-size:.92rem;color:var(--forest,#0d2b21);background:var(--g50,#f7f9f8);border:1px solid var(--g200,#e4e8e6);border-radius:11px;transition:border-color .2s,background .2s;appearance:none}
+.cform-field textarea{resize:vertical;min-height:120px;line-height:1.55}
+.cform-field select{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b6b64' stroke-width='2.2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-size:16px;padding-right:38px}
+.cform-field input:focus,.cform-field select:focus,.cform-field textarea:focus{outline:none;background:#fff;border-color:var(--brand,#0b7a52)}
+.cform-field input::placeholder,.cform-field textarea::placeholder{color:#9aa8a2}
+.cform-bot{position:absolute;left:-9999px;opacity:0;pointer-events:none}
+.cform-submit{width:100%;justify-content:center;margin-top:6px;border:0;cursor:pointer;font:inherit}
+.cform-fine{margin-top:12px;text-align:center;font-size:.78rem;color:var(--g600,#5b6b64)}
+@media(max-width:900px){.cform-split{grid-template-columns:1fr;gap:28px}}
+@media(max-width:560px){.cform-row{grid-template-columns:1fr;gap:0}.cform{border-radius:16px}}
+
+/* Hero + logo strip fill the first screen on desktop, so the strip lands on
+   the fold and the green section below it stays out of view until you scroll.
+   The nav is fixed at 64px and the hero already clears it with its own top
+   padding, so the wrap gets the full viewport rather than 100svh - 64px. */
+@media(min-width:941px){
+  .hero-wrap{min-height:100svh;display:flex;flex-direction:column}
+  .hero-wrap>.hero{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;padding-bottom:24px}
+  .hero-wrap>.trust-strip{flex:0 0 auto;margin-top:auto}
+}
+
+/* Marquee/column jank on phones.
+   The logos and phone shots now carry intrinsic sizes, which was the real
+   cause — an unsized image collapses the track, and the keyframes translate a
+   percentage OF that track, so every image that finished loading moved the
+   goalposts mid-animation. These three just keep the animation on the
+   compositor so it can't tear against the rest of the page. */
+.marquee-track,.swall-col{transform:translateZ(0);backface-visibility:hidden}
+.mq-item img{transform:translateZ(0)}
+@media(max-width:940px){
+  /* The strip's fade mask forces a full-layer repaint every frame on mobile
+     GPUs. The strip is edge-to-edge on a phone anyway, so there's nothing for
+     the mask to hide. */
+  .strip-inner{-webkit-mask:none;mask:none}
+}

@@ -149,22 +149,22 @@ export default function WebDevelopment() {
 <div className="trust-strip rvsec" aria-label="Brands we work with">
   <div className="strip-inner">
     <div className="marquee-track">
-      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="Personalised Favours" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="Before You Speak" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="Hedonist" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="Pet Supplies Australia" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="Aaria London" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="NADT" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="Pinkish Pods" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="Work Sharp Sharpeners" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="" /></span>
-      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="Personalised Favours" width="207" height="34" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="Before You Speak" width="52" height="52" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="Hedonist" width="116" height="30" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="Pet Supplies Australia" width="96" height="34" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="Aaria London" width="110" height="34" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="NADT" width="90" height="24" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="Pinkish Pods" width="64" height="46" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="Work Sharp Sharpeners" width="400" height="71" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/personalised-favours.png`} alt="" width="207" height="34" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/before-you-speak.png`} alt="" width="52" height="52" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/hedonist.png`} alt="" width="116" height="30" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pet-supplies-australia.png`} alt="" width="96" height="34" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/aaria-london.png`} alt="" width="110" height="34" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/nadt.png`} alt="" width="90" height="24" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/pinkish-pods.png`} alt="" width="64" height="46" /></span>
+      <span className="mq-item"><img src={`${BASE}/images/work-sharp.png`} alt="" width="400" height="71" /></span>
     </div>
   </div>
 </div>
@@ -283,7 +283,7 @@ export default function WebDevelopment() {
         <h5>Services</h5>
         <ul className="footer-links">
           <li><a href={`${BASE}/#services`}>Google Ads Management</a></li>
-          <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
+          <li><a href={`${BASE}/ecommerce/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
         </ul>

@@ -210,7 +210,7 @@ export default function CaseStudies() {
         <h5>Services</h5>
         <ul className="footer-links">
           <li><a href={`${BASE}/#services`}>Google Ads Management</a></li>
-          <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
+          <li><a href={`${BASE}/ecommerce/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
         </ul>
