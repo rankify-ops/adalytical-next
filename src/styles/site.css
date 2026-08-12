@@ -723,15 +723,6 @@ section[id],footer[id]{scroll-margin-top:88px}
 @media(max-width:900px){.cform-split{grid-template-columns:1fr;gap:28px}}
 @media(max-width:560px){.cform-row{grid-template-columns:1fr;gap:0}.cform{border-radius:16px}}
 
-/* Hero + logo strip fill the first screen on desktop, so the strip lands on
-   the fold and the green section below it stays out of view until you scroll.
-   The nav is fixed at 64px and the hero already clears it with its own top
-   padding, so the wrap gets the full viewport rather than 100svh - 64px. */
-@media(min-width:941px){
-  .hero-wrap{min-height:100svh;display:flex;flex-direction:column}
-  .hero-wrap>.hero{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;padding-bottom:24px}
-  .hero-wrap>.trust-strip{flex:0 0 auto;margin-top:auto}
-}
 
 /* Marquee/column jank on phones.
    The logos and phone shots now carry intrinsic sizes, which was the real
