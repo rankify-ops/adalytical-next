@@ -137,6 +137,10 @@ export default function Home() {
           <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Reply within 24h</span>
           <span className="cm-sep"></span>
           <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg>Ex-Google Ads team</span>
+          <span className="cm-sep"></span>
+          <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span>&nbsp;accounts audited</span>
+          <span className="cm-sep"></span>
+          <span className="cm-i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6"><path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round"/></svg><span className="cnt" data-target="30" data-suffix="+">30+</span>&nbsp;agencies trained</span>
         </div>
       </div>
 
@@ -156,13 +160,6 @@ export default function Home() {
           <p><strong><span className="cnt" data-target="65" data-prefix="+" data-suffix="%">+65%</span> ROAS.</strong>Real results from profit-first Google Ads.</p>
         </div>
       </div>
-    </div>
-    <div className="hero-stats hero-stats-full rv">
-      <div className="hstat"><span className="hs-val"><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span></span><span className="hs-label">Accounts audited</span></div>
-      <div className="hstat"><span className="hs-val"><span className="cnt" data-target="30" data-suffix="+">30+</span></span><span className="hs-label">Agencies trained</span></div>
-      <div className="hstat"><span className="hs-val">100%</span><span className="hs-label">Google Ads focus</span></div>
-      <div className="hstat"><span className="hs-val">Ex-Google</span><span className="hs-label">Insider Ads-team experience</span></div>
-      <div className="hstat"><span className="hs-val">No lock-in</span><span className="hs-label">Month-to-month, always</span></div>
     </div>
   </div>
 </header>
@@ -310,7 +307,7 @@ export default function Home() {
         <p className="wwd-sub">Pick the one you came for. Every service is run by the specialist doing the work — no account handed to a junior, no guesswork.</p>
       </div>
       <div className="wwd-grid">
-        <a href={`${BASE}/services/`} className="wwd-card rv">
+        <a href={`${BASE}/#services`} className="wwd-card rv">
           <span className="wwd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></span>
           <span className="wwd-name">Google Ads Management <span className="wwd-arr" aria-hidden="true">→</span></span>
           <span className="wwd-line">Search, Shopping, YouTube and Performance Max campaigns pointed at profit, not clicks.</span>
@@ -1069,7 +1066,7 @@ export default function Home() {
       <div>
         <h5>Services</h5>
         <ul className="footer-links">
-          <li><a href={`${BASE}/services/`}>Google Ads Management</a></li>
+          <li><a href={`${BASE}/#services`}>Google Ads Management</a></li>
           <li><a href={`${BASE}/services/#merchant-center`}>Merchant Center</a></li>
           <li><a href={`${BASE}/landing-pages/`}>Landing Pages</a></li>
           <li><a href={`${BASE}/web-development/`}>Web Development</a></li>
