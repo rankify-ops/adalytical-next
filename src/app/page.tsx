@@ -418,7 +418,7 @@ export default function Home() {
                     <span className="sf-pill">Full-Funnel Tracking</span>
                   </div>
                 </div>
-                <a href="#book" className="srow-link">See Google Ads Management <span aria-hidden="true">&rarr;</span></a>
+                <a href={`${BASE}/services/`} className="srow-link">See Google Ads Management <span aria-hidden="true">&rarr;</span></a>
               </div>
             </div>
           </div>
@@ -445,7 +445,7 @@ export default function Home() {
                     <span className="sf-pill">CTR Uplift</span>
                   </div>
                 </div>
-                <a href="#book" className="srow-link">See Merchant Center <span aria-hidden="true">&rarr;</span></a>
+                <a href={`${BASE}/ecommerce/`} className="srow-link">See Merchant Center <span aria-hidden="true">&rarr;</span></a>
               </div>
             </div>
           </div>
@@ -472,7 +472,7 @@ export default function Home() {
                     <span className="sf-pill">Built to Sell</span>
                   </div>
                 </div>
-                <a href="#book" className="srow-link">See Conversion Optimisation <span aria-hidden="true">&rarr;</span></a>
+                <a href={`${BASE}/landing-pages/`} className="srow-link">See Conversion Optimisation <span aria-hidden="true">&rarr;</span></a>
               </div>
             </div>
           </div>
