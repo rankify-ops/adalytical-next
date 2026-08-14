@@ -331,6 +331,28 @@ export default function Ecommerce() {
   </div>
 </section>
 
+{/* ============ PARTNER REVIEWS (demo/placeholder testimonials) ============ */}
+<section className="sec sec-cream rvsec">
+  <div className="ctr">
+    <div className="cg-head rv">
+      <span className="cg-eyebrow">Real results</span>
+      <h2>What our clients say.</h2>
+    </div>
+    <div className="qrev-grid">
+      <figure className="qrev-card rv">
+        <div className="qrev-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
+        <blockquote>&ldquo;Adalytical had our Google Ads restructured and profitable within weeks. We had a flood of qualified enquiries in the first fortnight &mdash; one job alone covered the ad spend with plenty left over.&rdquo;</blockquote>
+        <figcaption className="qrev-by"><img src={`${BASE}/images/nick-prime-group.webp`} alt="Nick" width="48" height="48" /><div><strong>Nick</strong><span>Owner, Prime Group</span></div></figcaption>
+      </figure>
+      <figure className="qrev-card rv">
+        <div className="qrev-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
+        <blockquote>&ldquo;The Adalytical team was incredibly fast and got our campaigns converting. We&rsquo;re really impressed and would highly recommend them to anyone running Google Ads.&rdquo;</blockquote>
+        <figcaption className="qrev-by"><img src={`${BASE}/images/gabriella-hawker.webp`} alt="Gabriella Smith" width="48" height="48" /><div><strong>Gabriella Smith</strong><span>Hawker Studios</span></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section className="sec sec-cream sec-stats rvsec">
   <div className="ctr"><div className="stats">
     <div className="stat rv"><span className="stat-val"><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span></span><span className="stat-label">Accounts audited<br />&amp; optimised</span></div>

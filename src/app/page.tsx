@@ -193,6 +193,25 @@ export default function Home() {
 </div>
 </div>
 
+{/* ============ FOUNDERS INTRO ============ */}
+<section className="founders-wrap rvsec">
+  <div className="founders-card rv">
+    <div className="founders-photos">
+      <img src={`${BASE}/images/jackson-wallace.webp`} alt="Jackson Wallace" width="140" height="168" />
+      <img src={`${BASE}/images/jackson-sharp.webp`} alt="Jackson Sharp" width="140" height="168" />
+    </div>
+    <div className="founders-copy">
+      <span className="founders-eyebrow">The people behind it</span>
+      <h2>Hey &mdash; we&rsquo;re <span className="accent">Jackson &amp; Jackson</span>.</h2>
+      <p>We used to be on the Google growth team, but left to start Adalytical together &mdash; because we can deliver far better value and results outside of Google. Today we&rsquo;re one of the fastest-growing Google Ads businesses in Australia.</p>
+      <div className="founders-sig">
+        <strong>Jackson Wallace &amp; Jackson Sharp</strong>
+        <span>Founders, Adalytical &middot; Ex-Google growth team</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 {/* ============ BIG-NUMBER MOMENT ============ */}
 <section className="bn-wrap rvsec">
   <div className="bn-band rv">

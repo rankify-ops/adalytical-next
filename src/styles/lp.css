@@ -651,3 +651,30 @@
   .cta-ticks .cm-sep{display:none}
   .cta-ticks .cm-i{font-size:.8rem;align-items:flex-start}
 }
+
+/* ============ FOUNDERS INTRO — "hey, we're the Jacksons" ============ */
+.founders-wrap{padding:clamp(40px,5vw,76px) clamp(8px,1.2vw,20px)}
+.founders-card{display:grid;grid-template-columns:auto 1fr;gap:clamp(26px,3.5vw,54px);align-items:center;max-width:1040px;margin:0 auto;background:#fff;border:1px solid var(--g200);border-radius:28px;padding:clamp(26px,3.4vw,46px);box-shadow:0 22px 56px rgba(20,42,30,.09)}
+.founders-photos{display:flex;flex:none;align-items:center}
+.founders-photos img{width:clamp(104px,11vw,140px);height:clamp(128px,13vw,168px);border-radius:16px;object-fit:cover;border:3px solid #fff;box-shadow:0 8px 22px rgba(20,42,30,.16);background:#e9f3ec}
+.founders-photos img:last-child{margin-left:-26px}
+.founders-eyebrow{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--brand);margin-bottom:12px}
+.founders-copy h2{font-size:clamp(1.5rem,2.4vw,2.15rem);font-weight:500;color:var(--forest);letter-spacing:-.03em;line-height:1.12;margin:0 0 14px}
+.founders-copy h2 .accent{color:var(--brand)}
+.founders-copy p{font-size:1rem;line-height:1.65;color:var(--g600);margin:0 0 20px;max-width:580px}
+.founders-sig{display:flex;flex-direction:column;gap:2px}
+.founders-sig strong{font-size:.98rem;color:var(--forest);font-weight:700}
+.founders-sig span{font-size:.85rem;color:var(--g500)}
+@media(max-width:760px){.founders-card{grid-template-columns:1fr;gap:22px}.founders-photos{justify-content:flex-start}}
+
+/* ============ PARTNER REVIEW CARDS (Nick, Gabriella) ============ */
+.qrev-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,2vw,24px);max-width:1000px;margin:clamp(28px,4vw,44px) auto 0}
+.qrev-card{background:#fff;border:1px solid var(--g200);border-radius:20px;padding:clamp(26px,3vw,38px);box-shadow:0 10px 30px rgba(20,42,30,.06);display:flex;flex-direction:column}
+.qrev-stars{display:flex;gap:2px;color:#f5a623;margin-bottom:16px}
+.qrev-stars svg{width:17px;height:17px}
+.qrev-card blockquote{font-size:1.05rem;line-height:1.55;color:var(--forest);font-weight:500;letter-spacing:-.01em;margin:0 0 22px;flex:1}
+.qrev-by{display:flex;align-items:center;gap:12px;margin-top:auto}
+.qrev-by img{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:none;background:#e9f3ec}
+.qrev-by strong{display:block;font-size:.95rem;color:var(--forest)}
+.qrev-by span{font-size:.82rem;color:var(--g500)}
+@media(max-width:760px){.qrev-grid{grid-template-columns:1fr}}
