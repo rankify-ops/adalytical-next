@@ -656,8 +656,8 @@
 .founders-wrap{padding:clamp(40px,5vw,76px) clamp(8px,1.2vw,20px)}
 .founders-card{display:grid;grid-template-columns:auto 1fr;gap:clamp(26px,3.5vw,54px);align-items:center;max-width:1040px;margin:0 auto;background:#fff;border:1px solid var(--g200);border-radius:28px;padding:clamp(26px,3.4vw,46px);box-shadow:0 22px 56px rgba(20,42,30,.09)}
 .founders-photos{display:flex;flex:none;align-items:center}
-.founders-photos img{width:clamp(104px,11vw,140px);height:clamp(128px,13vw,168px);border-radius:16px;object-fit:cover;border:3px solid #fff;box-shadow:0 8px 22px rgba(20,42,30,.16);background:#e9f3ec}
-.founders-photos img:last-child{margin-left:-26px}
+.founders-photos img{width:clamp(100px,10.5vw,132px);height:clamp(100px,10.5vw,132px);border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 8px 22px rgba(20,42,30,.16);background:#e9f3ec}
+.founders-photos img:last-child{margin-left:-22px}
 .founders-eyebrow{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--brand);margin-bottom:12px}
 .founders-copy h2{font-size:clamp(1.5rem,2.4vw,2.15rem);font-weight:500;color:var(--forest);letter-spacing:-.03em;line-height:1.12;margin:0 0 14px}
 .founders-copy h2 .accent{color:var(--brand)}
@@ -678,3 +678,14 @@
 .qrev-by strong{display:block;font-size:.95rem;color:var(--forest)}
 .qrev-by span{font-size:.82rem;color:var(--g500)}
 @media(max-width:760px){.qrev-grid{grid-template-columns:1fr}}
+
+/* rankify-style QuoteBand — single centered review, sprinkled between sections */
+.qband-wrap{padding:clamp(44px,6vw,84px) clamp(8px,1.2vw,20px)}
+.qband{max-width:840px;margin:0 auto;text-align:center;padding:0 clamp(22px,4vw,40px)}
+.qband-stars{display:inline-flex;gap:3px;margin-bottom:20px;color:#f5b301}
+.qband-stars svg{width:20px;height:20px}
+.qband blockquote{font-size:clamp(1.2rem,2.1vw,1.75rem);line-height:1.42;font-weight:500;letter-spacing:-.02em;color:var(--forest);margin:0 0 26px}
+.qband-by{display:inline-flex;align-items:center;gap:12px;justify-content:center}
+.qband-by img{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none;background:#e9f3ec}
+.qband-by strong{display:block;color:var(--forest);font-size:1rem}
+.qband-by span{font-size:.85rem;color:var(--g500)}

@@ -159,6 +159,34 @@ export default function Ecommerce() {
   </div>
 </div>
 
+{/* ============ FOUNDERS INTRO ============ */}
+<section className="founders-wrap rvsec">
+  <div className="founders-card rv">
+    <div className="founders-photos">
+      <img src={`${BASE}/images/jackson-wallace.webp`} alt="Jackson Wallace" width="132" height="132" />
+      <img src={`${BASE}/images/jackson-sharp.webp`} alt="Jackson Sharp" width="132" height="132" />
+    </div>
+    <div className="founders-copy">
+      <span className="founders-eyebrow">The people behind it</span>
+      <h2>Hey &mdash; we&rsquo;re <span className="accent">Jackson &amp; Jackson</span>.</h2>
+      <p>We used to be on the Google growth team, but left to start Adalytical together &mdash; because we can deliver far better value and results outside of Google. Today we&rsquo;re one of the fastest-growing Google Ads businesses in Australia.</p>
+      <div className="founders-sig">
+        <strong>Jackson Wallace &amp; Jackson Sharp</strong>
+        <span>Founders, Adalytical &middot; Ex-Google growth team</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* ============ REVIEW (demo/placeholder testimonial) ============ */}
+<section className="qband-wrap rvsec">
+  <figure className="qband rv">
+    <div className="qband-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
+    <blockquote>&ldquo;Adalytical had our Google Ads restructured and profitable within weeks. We had a flood of qualified enquiries in the first fortnight &mdash; one job alone covered the ad spend with plenty left over.&rdquo;</blockquote>
+    <figcaption className="qband-by"><img src={`${BASE}/images/nick-prime-group.webp`} alt="Nick" width="56" height="56" /><div><strong>Nick</strong><span>Owner, Prime Group</span></div></figcaption>
+  </figure>
+</section>
+
 {/* ============ CLIENT LOGO CAROUSEL ============ */}
 <div className="trust-strip rvsec" aria-label="Brands we work with">
   <div className="strip-inner">
@@ -331,28 +359,6 @@ export default function Ecommerce() {
   </div>
 </section>
 
-{/* ============ PARTNER REVIEWS (demo/placeholder testimonials) ============ */}
-<section className="sec sec-cream rvsec">
-  <div className="ctr">
-    <div className="cg-head rv">
-      <span className="cg-eyebrow">Real results</span>
-      <h2>What our clients say.</h2>
-    </div>
-    <div className="qrev-grid">
-      <figure className="qrev-card rv">
-        <div className="qrev-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
-        <blockquote>&ldquo;Adalytical had our Google Ads restructured and profitable within weeks. We had a flood of qualified enquiries in the first fortnight &mdash; one job alone covered the ad spend with plenty left over.&rdquo;</blockquote>
-        <figcaption className="qrev-by"><img src={`${BASE}/images/nick-prime-group.webp`} alt="Nick" width="48" height="48" /><div><strong>Nick</strong><span>Owner, Prime Group</span></div></figcaption>
-      </figure>
-      <figure className="qrev-card rv">
-        <div className="qrev-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
-        <blockquote>&ldquo;The Adalytical team was incredibly fast and got our campaigns converting. We&rsquo;re really impressed and would highly recommend them to anyone running Google Ads.&rdquo;</blockquote>
-        <figcaption className="qrev-by"><img src={`${BASE}/images/gabriella-hawker.webp`} alt="Gabriella Smith" width="48" height="48" /><div><strong>Gabriella Smith</strong><span>Hawker Studios</span></div></figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
 <section className="sec sec-cream sec-stats rvsec">
   <div className="ctr"><div className="stats">
     <div className="stat rv"><span className="stat-val"><span className="cnt" data-target="1000" data-group="1" data-suffix="+">1,000+</span></span><span className="stat-label">Accounts audited<br />&amp; optimised</span></div>
@@ -420,6 +426,15 @@ export default function Ecommerce() {
   </div></div>
 </section>
 {/* ============ FOOTER ============ */}
+{/* ============ REVIEW (demo/placeholder testimonial) ============ */}
+<section className="qband-wrap rvsec">
+  <figure className="qband rv">
+    <div className="qband-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
+    <blockquote>&ldquo;The Adalytical team was incredibly fast and got our campaigns converting. We&rsquo;re really impressed and would highly recommend them to anyone running Google Ads.&rdquo;</blockquote>
+    <figcaption className="qband-by"><img src={`${BASE}/images/gabriella-hawker.webp`} alt="Gabriella Smith" width="56" height="56" /><div><strong>Gabriella Smith</strong><span>Hawker Studios</span></div></figcaption>
+  </figure>
+</section>
+
 <footer className="footer" id="contact">
   <div className="ctr">
     <div className="footer-grid">
