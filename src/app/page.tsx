@@ -641,12 +641,12 @@ export default function Home() {
 </section>
 
 {/* ============ SPRINKLED PULL-QUOTE ============ */}
-<section className="pullq-wrap rvsec">
-  <div className="pullq rv">
-    <span className="pullq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg></span>
-    <blockquote>“They <strong>scaled our Google spend over 300%</strong> — all while keeping profitability front and centre. The ex-Google insight is the real deal.”</blockquote>
-    <span className="pullq-by"><span className="pullq-av">S</span><span><strong>Sivan</strong><span>Founder, Bushdoof Lighting</span></span></span>
-  </div>
+<section className="qband-wrap rvsec">
+  <figure className="qband rv">
+    <div className="qband-stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.8 5.9 21l1.3-6.7-5-4.6 6.8-.8z"/></svg></div>
+    <blockquote>&ldquo;They <strong>scaled our Google spend over 300%</strong> &mdash; all while keeping profitability front and centre. The ex-Google insight is the real deal.&rdquo;</blockquote>
+    <figcaption className="qband-by"><span className="qband-av">S</span><div><strong>Sivan</strong><span>Founder, Bushdoof Lighting</span></div></figcaption>
+  </figure>
 </section>
 
 {/* ============ COST COMPARISON ============ */}

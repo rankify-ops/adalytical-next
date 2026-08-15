@@ -687,5 +687,6 @@
 .qband blockquote{font-size:clamp(1.2rem,2.1vw,1.75rem);line-height:1.42;font-weight:500;letter-spacing:-.02em;color:var(--forest);margin:0 0 26px}
 .qband-by{display:inline-flex;align-items:center;gap:12px;justify-content:center}
 .qband-by img{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none;background:#e9f3ec}
+.qband-av{width:56px;height:56px;border-radius:50%;flex:none;display:inline-flex;align-items:center;justify-content:center;background:var(--forest);color:#fff;font-weight:700;font-size:1.25rem;line-height:1}
 .qband-by strong{display:block;color:var(--forest);font-size:1rem}
 .qband-by span{font-size:.85rem;color:var(--g500)}
